@@ -4,10 +4,8 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.google.gson.Gson;
 import com.vaman.spring.boot.demo.model.Employee;
 import com.vaman.spring.boot.demo.service.EmployeeService;
 
@@ -22,7 +20,6 @@ public class EmployeeController {
 		System.out.println("getAllEmployees controller");
 		service.getAllEmployees();
 		return service.getAllEmployees();
-
 	}
 
 //	@RequestMapping("/emp") // endpoint / API  / REST APIs
