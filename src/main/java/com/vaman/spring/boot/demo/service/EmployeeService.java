@@ -16,6 +16,7 @@ public class EmployeeService {
 	EmployeeRepository repository;
 
 	public List<Employee> getAllEmployees() {
+		System.out.println("getAllEmployees service");
 
 		List<Employee> empList = new ArrayList<>();
 
