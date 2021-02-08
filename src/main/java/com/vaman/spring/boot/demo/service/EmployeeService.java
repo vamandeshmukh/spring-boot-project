@@ -23,8 +23,13 @@ public class EmployeeService {
 		repository.findAll().forEach(emp -> empList.add(emp)); // add objects to list
 
 		// empList = (List<Employee>) repository.findAll(); // add objects to list
-
 		return empList;
+	}
+
+	// saving a specific record by using the method save() of CrudRepository
+	public void saveOrUpdate(Employee employee) {
+		System.out.println("saveOrUpdate");
+		repository.save(employee);
 	}
 
 }
