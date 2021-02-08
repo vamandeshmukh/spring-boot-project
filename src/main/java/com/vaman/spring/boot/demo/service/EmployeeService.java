@@ -19,7 +19,9 @@ public class EmployeeService {
 
 		List<Employee> empList = new ArrayList<>();
 
-		repository.findAll().forEach(emp -> empList.add(emp));
+		repository.findAll().forEach(emp -> empList.add(emp)); // add objects to list
+
+		// empList = (List<Employee>) repository.findAll(); // add objects to list
 
 		return empList;
 	}
