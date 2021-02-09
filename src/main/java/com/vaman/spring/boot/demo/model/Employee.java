@@ -14,7 +14,13 @@ public class Employee {
 	String name;
 
 	@Column
-	double salary;
+	double salary; 
+
+//	@Column
+//	Department department;
+
+//	@Column
+//	department_id;
 
 	public Employee() {
 		super();
