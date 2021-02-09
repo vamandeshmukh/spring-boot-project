@@ -8,7 +8,8 @@ import org.springframework.web.bind.annotation.*;
 import com.vaman.spring.boot.demo.model.Employee;
 import com.vaman.spring.boot.demo.service.EmployeeService;
 
-//mark class as Controller
+//mark class as RestController
+
 @RestController
 public class EmployeeController {
 
@@ -17,39 +18,47 @@ public class EmployeeController {
 	EmployeeService service;
 
 // creating a get mapping that retrieves all the Employee detail from the database
-	@GetMapping("/emp")
+	@GetMapping("/employees")
 	private List<Employee> getAllEmployees() {
 		System.out.println("getAllEmployees controller");
 		return service.getAllEmployees();
 	}
 
 // creating a get mapping that retrieves the detail of a specific Employee
-	@GetMapping("/emp/{id}")
+	@GetMapping("/employee/{id}")
 	private Employee getEmployee(@PathVariable("id") int id) {
-		System.out.println("getEmployee");
+		System.out.println("getEmployee controller");
 		return service.getEmployeeById(id);
 	}
 
+// creating a post mapping to post details of Employee
+
+	@PostMapping("/department/{departmentId}/employee")
+	public Employee createEmployee(@PathVariable(value = "departmentId") int departmentId,
+			@RequestBody Employee employee) {
+		System.out.println("createEmployee controller");
+		service.saveEmployee(departmentId, employee);
+		return employee;
+	}
+
+	// creating put mapping that updates the Employee detail
+
+	// update only name
+	@PutMapping("/employee/{id}")
+	private Employee updateEmployee(@PathVariable(value = "id") int id, @RequestBody Employee employee) {
+		System.out.println("updateEmployee controller");
+		service.update(employee, id);
+		return employee;
+	}
+
 // creating a delete mapping that deletes a specified Employee
-	@DeleteMapping("/emp/{id}")
+
+	@DeleteMapping("/employee/{id}")
 	private void deleteEmployee(@PathVariable("id") int id) {
-		System.out.println("deleteEmployee");
+		System.out.println("deleteEmployee controller");
 		service.delete(id);
 	}
 
-// creating post mapping that post the Employee detail in the database
-	@PostMapping("/emp")
-	private int saveEmployee(@RequestBody Employee Employee) {
-		System.out.println("saveEmployee");
-		service.saveOrUpdate(Employee);
-		return Employee.getId();
-	}
-
-// creating put mapping that updates the Employee detail
-	@PutMapping("/emp")
-	private Employee update(@RequestBody Employee Employee) {
-		System.out.println("update");
-		service.saveOrUpdate(Employee);
-		return Employee;
-	}
 }
+
+

@@ -2,11 +2,13 @@ package com.vaman.spring.boot.demo.service;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.vaman.spring.boot.demo.model.Employee;
+import com.vaman.spring.boot.demo.repository.DepartmentRepository;
 import com.vaman.spring.boot.demo.repository.EmployeeRepository;
 
 //defining the business logic
@@ -15,39 +17,54 @@ import com.vaman.spring.boot.demo.repository.EmployeeRepository;
 public class EmployeeService {
 
 	@Autowired
-	EmployeeRepository repository;
+	EmployeeRepository employeeRepository;
+
+	@Autowired
+	DepartmentRepository departmentRepository;
 
 //getting all Employee record by using the method findaAll() of CrudRepository
 
 	public List<Employee> getAllEmployees() {
-		System.out.println("getAllEmployees");
+		System.out.println("getAllEmployees service");
 		List<Employee> employeesList = new ArrayList<Employee>();
-		repository.findAll().forEach(emp -> employeesList.add(emp));
+		employeeRepository.findAll().forEach(emp -> employeesList.add(emp));
 		return employeesList;
 	}
 
 //getting a specific record by using the method findById() of CrudRepository
 
 	public Employee getEmployeeById(int id) {
-		System.out.println("getEmployeeById");
-		return repository.findById(id).get();
+		System.out.println("getEmployeeById service");
+		return employeeRepository.findById(id).get();
 	}
 
-//saving a specific record by using the method save() of CrudRepository
-	public void saveOrUpdate(Employee employee) {
-		System.out.println("saveOrUpdate");
-		repository.save(employee);
+// create a new employee record by using the custom method in the Repository
+
+	public Employee saveEmployee(int departmentId, Employee employee) {
+		System.out.println("saveEmployee service");
+		departmentRepository.findById(departmentId).map(department -> {
+			employee.setDepartment(department);
+			return employee;
+		});
+		return employeeRepository.save(employee);
 	}
 
-//deleting a specific record by using the method deleteById() of CrudRepository
-	public void delete(int id) {
-		System.out.println("delete");
-		repository.deleteById(id);
+// updating a record
+
+	public Optional<Employee> update(Employee employee, int id) {
+		System.out.println("update service");
+		return employeeRepository.findById(id).map(emp -> { // add more logic 
+			emp.setName(employee.getName());
+			return employeeRepository.save(emp);
+		});
 	}
 
-//updating a record
-	public void update(Employee employee, int id) {
-		System.out.println("update");
-		repository.save(employee);
+// deleting the specific record by using the method deleteById() of CrudRepository
+
+	public int delete(int id) {
+		System.out.println("delete service");
+		employeeRepository.deleteById(id);
+		return id;
 	}
+
 }

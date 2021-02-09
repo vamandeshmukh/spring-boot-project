@@ -2,36 +2,34 @@ package com.vaman.spring.boot.demo.model;
 
 import javax.persistence.*;
 
+import org.hibernate.annotations.OnDelete;
+import org.hibernate.annotations.OnDeleteAction;
+
+import com.fasterxml.jackson.annotation.JsonIdentityInfo;
+import com.fasterxml.jackson.annotation.JsonIdentityReference;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.ObjectIdGenerators;
+
 @Entity
-@Table(name = "employees")
+@Table(name = "employees", schema = "deloitte")
 public class Employee {
-
 	@Id
-	@Column
-	int id;
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private int id;
 
 	@Column
-	String name;
+	private String name;
 
 	@Column
-	double salary; 
+	private double salary;
 
-//	@Column
-//	Department department;
-
-//	@Column
-//	department_id;
-
-	public Employee() {
-		super();
-	}
-
-	public Employee(int id, String name, double salary) {
-		super();
-		this.id = id;
-		this.name = name;
-		this.salary = salary;
-	}
+	@ManyToOne(fetch = FetchType.LAZY, optional = false)
+	@JoinColumn(name = "department_id", nullable = false)
+	@OnDelete(action = OnDeleteAction.CASCADE)
+	@JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "id")
+	@JsonIdentityReference(alwaysAsId = true)
+	@JsonProperty("department_id")
+	private Department department;
 
 	public int getId() {
 		return id;
@@ -57,9 +55,12 @@ public class Employee {
 		this.salary = salary;
 	}
 
-	@Override
-	public String toString() {
-		return "Employee [id=" + id + ", name=" + name + ", salary=" + salary + "]";
+	public Department getDepartment() {
+		return department;
+	}
+
+	public void setDepartment(Department department) {
+		this.department = department;
 	}
 
 }
