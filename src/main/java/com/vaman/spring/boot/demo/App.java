@@ -13,6 +13,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 // exception handling - in service classes 
 // logging - add logs to all the classes wherever applicable 
+// another (consumer app) - to consume these web services 
 
 @SpringBootApplication
 public class App {
