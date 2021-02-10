@@ -20,6 +20,13 @@ public class EmployeeController {
 	@Autowired
 	EmployeeService service;
 
+	@GetMapping("/")
+	private String baseUrl() {
+		logger.info("baseUrl controller");
+		return "welcome";
+	}
+
+	
 // creating a get mapping that retrieves all the Employee detail from the database
 	@GetMapping("/employees")
 	private List<Employee> getAllEmployees() {

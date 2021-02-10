@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -15,6 +17,11 @@ import com.vaman.spring.boot.demo.repository.EmployeeRepository;
 
 @Service
 public class EmployeeService {
+
+	Logger logger = LoggerFactory.getLogger(EmployeeService.class);
+
+//	@Autowired
+	Employee employeeDummy = new Employee();
 
 	@Autowired
 	EmployeeRepository employeeRepository;
@@ -35,7 +42,12 @@ public class EmployeeService {
 
 	public Employee getEmployeeById(int id) {
 		System.out.println("getEmployeeById service");
-		return employeeRepository.findById(id).get();
+		try {
+			return employeeRepository.findById(id).get();
+		} catch (Exception ex) {
+			logger.error(id + " does not exist.");
+			return employeeDummy;
+		}
 	}
 
 // create a new employee record by using the custom method in the Repository
@@ -54,7 +66,7 @@ public class EmployeeService {
 	public Optional<Employee> update(Employee employee, int id) {
 		System.out.println("update service");
 		return employeeRepository.findById(id).map(emp -> { // add more logic
-			emp.setName(employee.getName()); // write all fields updates 
+			emp.setName(employee.getName()); // write all fields updates
 			return employeeRepository.save(emp);
 		});
 	}
