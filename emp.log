@@ -1,0 +1,40 @@
+2021-02-10 11:48:58.464  INFO 5892 --- [main] com.vaman.spring.boot.demo.App           : Starting App using Java 1.8.0_281 on DESKTOP-KFP7J4E with PID 5892 (C:\VamanCode\eclipse-workspace-7\spring-boot-project\target\classes started by Vaman in C:\VamanCode\eclipse-workspace-7\spring-boot-project)
+2021-02-10 11:48:58.474  INFO 5892 --- [main] com.vaman.spring.boot.demo.App           : No active profile set, falling back to default profiles: default
+2021-02-10 11:49:01.094  INFO 5892 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-02-10 11:49:01.291  INFO 5892 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 146 ms. Found 2 JPA repository interfaces.
+2021-02-10 11:49:02.811  INFO 5892 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2021-02-10 11:49:02.839  INFO 5892 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-10 11:49:02.840  INFO 5892 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-02-10 11:49:02.843  INFO 5892 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2021-02-10 11:49:02.844  INFO 5892 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-02-10 11:49:02.848  INFO 5892 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-02-10 11:49:02.854  INFO 5892 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2021-02-10 11:49:03.148  INFO 5892 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-10 11:49:03.149  INFO 5892 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4421 ms
+2021-02-10 11:49:03.971  INFO 5892 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-10 11:49:04.165  INFO 5892 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-10 11:49:04.352  WARN 5892 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-10 11:49:04.471  INFO 5892 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.23.Final
+2021-02-10 11:49:05.281  INFO 5892 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-10 11:49:06.110  INFO 5892 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-02-10 11:49:06.133  WARN 5892 --- [task-1] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2021-02-10 11:49:06.452  INFO 5892 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2021-02-10 11:49:06.462  INFO 5892 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2021-02-10 11:49:07.334  INFO 5892 --- [task-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (Feature not implemented: No details.)
+2021-02-10 11:49:07.343  INFO 5892 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-02-10 11:49:07.412  INFO 5892 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.DerbyTenSevenDialect
+2021-02-10 11:49:11.241  INFO 5892 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-10 11:49:11.282  INFO 5892 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-10 11:49:12.615  INFO 5892 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2021-02-10 11:49:12.648  INFO 5892 --- [main] com.vaman.spring.boot.demo.App           : Started App in 15.714 seconds (JVM running for 19.295)
+2021-02-10 11:49:12.659  INFO 5892 --- [main] com.vaman.spring.boot.demo.App           : End
+2021-02-10 11:49:26.045  INFO 5892 --- [http-nio-8090-exec-10] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-10 11:49:26.046  INFO 5892 --- [http-nio-8090-exec-10] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-02-10 11:49:26.053  INFO 5892 --- [http-nio-8090-exec-10] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2021-02-10 11:49:26.382  INFO 5892 --- [http-nio-8090-exec-10] c.v.s.b.d.controller.EmployeeController  : getEmployee controller
+2021-02-10 11:49:33.308  INFO 5892 --- [http-nio-8090-exec-9] c.v.s.b.d.controller.EmployeeController  : getAllEmployees controller
+2021-02-10 11:49:41.213  INFO 5892 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-02-10 11:49:42.928  INFO 5892 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-10 11:49:43.400  INFO 5892 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-10 11:49:43.402  INFO 5892 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-02-10 11:49:43.414  INFO 5892 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

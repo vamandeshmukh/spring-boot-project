@@ -53,8 +53,8 @@ public class EmployeeService {
 
 	public Optional<Employee> update(Employee employee, int id) {
 		System.out.println("update service");
-		return employeeRepository.findById(id).map(emp -> { // add more logic 
-			emp.setName(employee.getName());
+		return employeeRepository.findById(id).map(emp -> { // add more logic
+			emp.setName(employee.getName()); // write all fields updates 
 			return employeeRepository.save(emp);
 		});
 	}

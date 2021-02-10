@@ -1,3 +1,4 @@
+
 CREATE TABLE departments(
 department_id INTEGER PRIMARY KEY, 
 name VARCHAR(50), 

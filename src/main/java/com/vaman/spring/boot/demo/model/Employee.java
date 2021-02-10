@@ -23,12 +23,12 @@ public class Employee {
 	@Column
 	private double salary;
 
-	@ManyToOne(fetch = FetchType.LAZY, optional = false)
+	@ManyToOne(fetch = FetchType.LAZY, optional = false) // lazy loading 
 	@JoinColumn(name = "department_id", nullable = false)
 	@OnDelete(action = OnDeleteAction.CASCADE)
 	@JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "id")
 	@JsonIdentityReference(alwaysAsId = true)
-	@JsonProperty("department_id")
+	@JsonProperty("department_id")	
 	private Department department;
 
 	public int getId() {
