@@ -21,5 +21,6 @@ INSERT INTO employees(employee_id, name, salary, department_id) VALUES(1002, 'Mo
 INSERT INTO employees(employee_id, name, salary, department_id) VALUES(1003, 'Tonu', 12.2, 20);
 INSERT INTO employees(employee_id, name, salary, department_id) VALUES(1004, 'Ponu', 20.8, 30);
 INSERT INTO employees(employee_id, name, salary, department_id) VALUES(1005, 'Gonu', 22.4, NULL);
+INSERT INTO employees(employee_id, name, salary, department_id) VALUES(1006, 'Donu', 45.50, 20);
 
 commit;
