@@ -16,7 +16,7 @@ import com.vaman.spring.boot.demo.repository.DepartmentRepository;
 public class DepartmentService {
 
 	private final Logger log = LoggerFactory.getLogger(DepartmentService.class);
-	
+
 	@Autowired
 	DepartmentRepository departmentRepository;
 
@@ -32,9 +32,9 @@ public class DepartmentService {
 		return departmentRepository.findById(id).get();
 	}
 
-	public void createDepartment(Department department) {
+	public Department createDepartment(Department department) {
 		System.out.println("createDepartment service");
-		departmentRepository.save(department);
+		return departmentRepository.save(department);
 	}
 
 	public Optional<Department> update(Department department, int id) {

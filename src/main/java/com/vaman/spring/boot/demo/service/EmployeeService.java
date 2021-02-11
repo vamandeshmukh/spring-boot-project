@@ -18,7 +18,7 @@ import com.vaman.spring.boot.demo.repository.EmployeeRepository;
 @Service
 public class EmployeeService {
 
-	Logger logger = LoggerFactory.getLogger(EmployeeService.class);
+	private final Logger log = LoggerFactory.getLogger(EmployeeService.class);
 
 //	@Autowired
 	Employee employeeDummy = new Employee();
@@ -32,7 +32,7 @@ public class EmployeeService {
 //getting all Employee record by using the method findaAll() of CrudRepository
 
 	public List<Employee> getAllEmployees() {
-		System.out.println("getAllEmployees service");
+		log.info("getAllEmployees service");
 		List<Employee> employeesList = new ArrayList<Employee>();
 		employeeRepository.findAll().forEach(emp -> employeesList.add(emp));
 		return employeesList;
@@ -41,11 +41,11 @@ public class EmployeeService {
 //getting a specific record by using the method findById() of CrudRepository
 
 	public Employee getEmployeeById(int id) {
-		System.out.println("getEmployeeById service");
+		log.info("getEmployeeById service");
 		try {
 			return employeeRepository.findById(id).get();
 		} catch (Exception ex) {
-			logger.error(id + " does not exist.");
+			log.error(id + " does not exist.");
 			return employeeDummy;
 		}
 	}
@@ -53,7 +53,7 @@ public class EmployeeService {
 // create a new employee record by using the custom method in the Repository
 
 	public Employee saveEmployee(int departmentId, Employee employee) {
-		System.out.println("saveEmployee service");
+		log.info("saveEmployee service");
 		departmentRepository.findById(departmentId).map(department -> {
 			employee.setDepartment(department);
 			return employee;
@@ -64,7 +64,7 @@ public class EmployeeService {
 // updating a record
 
 	public Optional<Employee> update(Employee employee, int id) {
-		System.out.println("update service");
+		log.info("update service");
 		return employeeRepository.findById(id).map(emp -> { // add more logic
 			emp.setName(employee.getName()); // write all fields updates
 			return employeeRepository.save(emp);
@@ -74,7 +74,7 @@ public class EmployeeService {
 // deleting the specific record by using the method deleteById() of CrudRepository
 
 	public int delete(int id) {
-		System.out.println("delete service");
+		log.info("delete service");
 		employeeRepository.deleteById(id);
 		return id;
 	}

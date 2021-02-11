@@ -14,7 +14,8 @@ import com.vaman.spring.boot.demo.service.EmployeeService;
 
 @RestController
 public class EmployeeController {
-	Logger logger = LoggerFactory.getLogger(EmployeeController.class);
+
+	private final Logger log = LoggerFactory.getLogger(EmployeeController.class);
 
 	// autowire the EmployeeService class
 	@Autowired
@@ -22,22 +23,21 @@ public class EmployeeController {
 
 	@GetMapping("/")
 	private String baseUrl() {
-		logger.info("baseUrl controller");
+		log.info("baseUrl controller");
 		return "welcome";
 	}
 
-	
 // creating a get mapping that retrieves all the Employee detail from the database
 	@GetMapping("/employees")
 	private List<Employee> getAllEmployees() {
-		logger.info("getAllEmployees controller");
+		log.info("getAllEmployees controller");
 		return service.getAllEmployees();
 	}
 
 // creating a get mapping that retrieves the detail of a specific Employee
 	@GetMapping("/employee/{id}")
 	private Employee getEmployee(@PathVariable("id") int id) {
-		logger.info("getEmployee controller");
+		log.info("getEmployee controller");
 
 		return service.getEmployeeById(id);
 	}
@@ -48,7 +48,7 @@ public class EmployeeController {
 	public Employee createEmployee(@PathVariable(value = "departmentId") int departmentId,
 			@RequestBody Employee employee) {
 
-		System.out.println("createEmployee controller");
+		log.info("createEmployee controller");
 
 		service.saveEmployee(departmentId, employee);
 
@@ -60,7 +60,7 @@ public class EmployeeController {
 	// update only name
 	@PutMapping("/employee/{id}")
 	private Employee updateEmployee(@PathVariable(value = "id") int id, @RequestBody Employee employee) {
-		System.out.println("updateEmployee controller");
+		log.info("updateEmployee controller");
 		service.update(employee, id);
 		return employee;
 	}
@@ -69,7 +69,7 @@ public class EmployeeController {
 
 	@DeleteMapping("/employee/{id}")
 	private void deleteEmployee(@PathVariable("id") int id) {
-		System.out.println("deleteEmployee controller");
+		log.info("deleteEmployee controller");
 		service.delete(id);
 	}
 

@@ -21,6 +21,17 @@ public class Department {
 	@Column()
 	private String city;
 
+	public Department() {
+		super();
+	}
+
+	public Department(int id, String name, String city) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.city = city;
+	}
+
 	public int getId() {
 		return id;
 	}
