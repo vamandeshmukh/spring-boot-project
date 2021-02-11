@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -13,18 +15,20 @@ import com.vaman.spring.boot.demo.repository.DepartmentRepository;
 @Service
 public class DepartmentService {
 
+	private final Logger log = LoggerFactory.getLogger(DepartmentService.class);
+	
 	@Autowired
 	DepartmentRepository departmentRepository;
 
 	public List<Department> getAllDepartments() {
-		System.out.println("getAllDepartments service");
+		log.info("getAllDepartments service");
 		List<Department> departmentsList = new ArrayList<Department>();
 		departmentRepository.findAll().forEach(dept -> departmentsList.add(dept));
 		return departmentsList;
 	}
 
 	public Department getDepartmentById(int id) {
-		System.out.println("getDepartmentById service");
+		log.info("getDepartmentById service");
 		return departmentRepository.findById(id).get();
 	}
 
