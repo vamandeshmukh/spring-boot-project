@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.vaman.spring.boot.demo.model.User;
+import com.vaman.spring.boot.demo.model.MyUser;
 import com.vaman.spring.boot.demo.security.JwtUtil;
 import com.vaman.spring.boot.demo.service.UserService;
 
@@ -41,11 +41,11 @@ public class UserController {
 	}
 
 	@PostMapping("/login")  // 1
-	public String login(@RequestBody User user) {
+	public String login(@RequestBody MyUser myUser) {
 		log.info("login");
 		try {
 			authenticationManager
-					.authenticate(new UsernamePasswordAuthenticationToken(user.getUsername(), user.getPassword()));
+					.authenticate(new UsernamePasswordAuthenticationToken(myUser.getUsername(), myUser.getPassword()));
 		} catch (BadCredentialsException bce) {
 			log.error(bce.getMessage());
 		} catch (AuthenticationException ae) {
@@ -54,7 +54,7 @@ public class UserController {
 		log.info("user authenticated");
 
 //		return "thisIsTheTokenString";
-		return jwtTokenUtil.generateToken(userDetailsService.loadUserByUsername(user.getUsername())); // related to JWT 
+		return jwtTokenUtil.generateToken(userDetailsService.loadUserByUsername(myUser.getUsername())); // related to JWT 
 	}
 
 }

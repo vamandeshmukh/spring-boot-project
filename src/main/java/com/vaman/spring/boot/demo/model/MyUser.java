@@ -5,11 +5,11 @@ import java.io.Serializable;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-// caution: "User" may need to be changed to "MyUser" user / users 
+// caution: "MyUser" may need to be changed to "MyUser" user / users 
 
-public class User implements Serializable {
+public class MyUser implements Serializable {
 
-	private final Logger log = LoggerFactory.getLogger(User.class);
+	private final Logger log = LoggerFactory.getLogger(MyUser.class);
 
 	private static final long serialVersionUID = 1L;
 
@@ -17,13 +17,13 @@ public class User implements Serializable {
 	private String username;
 	private String password;
 
-	public User() {
+	public MyUser() {
 		super();
-		log.info("User default constructor");
+		log.info("MyUser default constructor");
 	}
 
-	public User(String username, String password) {
-		log.info("User parameterized constructor");
+	public MyUser(String username, String password) {
+		log.info("MyUser parameterized constructor");
 		this.setUsername(username);
 		this.setPassword(password);
 	}
