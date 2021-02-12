@@ -54,7 +54,7 @@ public class UserController {
 		log.info("user authenticated");
 
 //		return "thisIsTheTokenString";
-		return jwtTokenUtil.generateToken(userDetailsService.loadUserByUsername(user.getUsername()));
+		return jwtTokenUtil.generateToken(userDetailsService.loadUserByUsername(user.getUsername())); // related to JWT 
 	}
 
 }

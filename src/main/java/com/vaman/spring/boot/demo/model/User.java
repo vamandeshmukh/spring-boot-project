@@ -5,13 +5,15 @@ import java.io.Serializable;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+// caution: "User" may need to be changed to "MyUser" user / users 
+
 public class User implements Serializable {
 
 	private final Logger log = LoggerFactory.getLogger(User.class);
 
 	private static final long serialVersionUID = 1L;
 
-	private int id;
+//	private int id;
 	private String username;
 	private String password;
 

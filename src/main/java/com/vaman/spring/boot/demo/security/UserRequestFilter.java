@@ -40,17 +40,17 @@ public class UserRequestFilter extends OncePerRequestFilter {
 		String jwt = null;
 
 		if (authorizationHeader != null && authorizationHeader.startsWith("Bearer ")) {
-			log.info("authorizationHeader");
+			log.info("authorizationHeader is null");
 			jwt = authorizationHeader.substring(7);
 			username = jwtUtil.extractUsername(jwt);
 		}
 
 		if (username != null && SecurityContextHolder.getContext().getAuthentication() == null) {
-			log.info("username");
+			log.info("username is null");
 			UserDetails userDetails = this.userService.loadUserByUsername(username);
 
 			if (jwtUtil.validateToken(jwt, userDetails)) {
-				log.info("userDetails");
+				log.info("userDetails extracted");
 				UsernamePasswordAuthenticationToken usernamePasswordAuthenticationToken = new UsernamePasswordAuthenticationToken(
 						userDetails, null, userDetails.getAuthorities());
 				usernamePasswordAuthenticationToken

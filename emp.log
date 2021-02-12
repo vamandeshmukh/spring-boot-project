@@ -2621,3 +2621,510 @@ Caused by: java.lang.Error: Unresolved compilation problem:
 2021-02-12 03:31:22.386  WARN 5312 --- [RMI TCP Connection(2)-127.0.0.1] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': java.sql.SQLException: Directory E:/ness/hr cannot be removed.
 2021-02-12 03:31:22.386  INFO 5312 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-19 - Shutdown initiated...
 2021-02-12 03:31:22.401  INFO 5312 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-19 - Shutdown completed.
+2021-02-12 09:46:21.702  INFO 8364 --- [restartedMain] com.vaman.spring.boot.demo.App           : Starting App using Java 1.8.0_281 on DESKTOP-KFP7J4E with PID 8364 (C:\VamanCode\eclipse-workspace-7\spring-boot-project\target\classes started by Vaman in C:\VamanCode\eclipse-workspace-7\spring-boot-project)
+2021-02-12 09:46:21.709  INFO 8364 --- [restartedMain] com.vaman.spring.boot.demo.App           : No active profile set, falling back to default profiles: default
+2021-02-12 09:46:22.637  INFO 8364 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\Vaman\.m2\repository\org\apache\derby\derby\10.14.2.0\derby-10.14.2.0.jar referenced one or more files that do not exist: file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_cs.jar,file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_de_DE.jar,file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_es.jar,file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_fr.jar,file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_hu.jar,file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_it.jar,file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_ja_JP.jar,file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_ko_KR.jar,file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_pl.jar,file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_pt_BR.jar,file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_ru.jar,file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_zh_CN.jar,file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_zh_TW.jar
+2021-02-12 09:46:22.643  INFO 8364 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-12 09:46:22.652  INFO 8364 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-12 09:46:31.379  INFO 8364 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-02-12 09:46:31.746  INFO 8364 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 306 ms. Found 2 JPA repository interfaces.
+2021-02-12 09:46:45.039  INFO 8364 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2021-02-12 09:46:45.127  INFO 8364 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-12 09:46:45.133  INFO 8364 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-02-12 09:46:45.155  INFO 8364 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2021-02-12 09:46:45.157  INFO 8364 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-02-12 09:46:45.160  INFO 8364 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-02-12 09:46:45.352  INFO 8364 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2021-02-12 09:46:47.004  INFO 8364 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-12 09:46:47.007  INFO 8364 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 24353 ms
+2021-02-12 09:46:52.474  INFO 8364 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-12 09:46:53.457  INFO 8364 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-12 09:46:55.510  INFO 8364 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.23.Final
+2021-02-12 09:46:56.291  WARN 8364 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-12 09:46:57.660  INFO 8364 --- [restartedMain] c.v.spring.boot.demo.security.JwtUtil    : configureGlobal
+2021-02-12 09:46:57.916  INFO 8364 --- [restartedMain] c.v.spring.boot.demo.security.JwtUtil    : authenticationManagerBean
+2021-02-12 09:46:59.219  INFO 8364 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-12 09:46:59.407  INFO 8364 --- [restartedMain] c.v.spring.boot.demo.security.JwtUtil    : configure
+2021-02-12 09:47:00.970  INFO 8364 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@108bdece, org.springframework.security.web.context.SecurityContextPersistenceFilter@291f4693, org.springframework.security.web.header.HeaderWriterFilter@7e7b5576, org.springframework.security.web.authentication.logout.LogoutFilter@24f6d990, com.vaman.spring.boot.demo.security.UserRequestFilter@6e65e37e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@440558dc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@bbeafef, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@36246ef, org.springframework.security.web.session.SessionManagementFilter@1f7da4e4, org.springframework.security.web.access.ExceptionTranslationFilter@48e2111c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3d48cf29]
+2021-02-12 09:47:01.351  INFO 8364 --- [restartedMain] c.v.spring.boot.demo.security.JwtUtil    : passwordEncoder
+2021-02-12 09:47:03.633  INFO 8364 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-02-12 09:47:03.716  WARN 8364 --- [task-1] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2021-02-12 09:47:13.999  INFO 8364 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-12 09:47:14.542  INFO 8364 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2021-02-12 09:47:14.663  INFO 8364 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2021-02-12 09:47:15.611  INFO 8364 --- [task-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (Feature not implemented: No details.)
+2021-02-12 09:47:15.631  INFO 8364 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-02-12 09:47:16.099  INFO 8364 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.DerbyTenSevenDialect
+2021-02-12 09:47:30.852  INFO 8364 --- [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-12 09:47:30.854  INFO 8364 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-02-12 09:47:30.895  INFO 8364 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 34 ms
+2021-02-12 09:47:31.100  INFO 8364 --- [http-nio-8090-exec-1] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-02-12 09:47:31.101  INFO 8364 --- [http-nio-8090-exec-1] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-02-12 09:47:31.173  INFO 8364 --- [http-nio-8090-exec-1] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-02-12 09:47:32.522  INFO 8364 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-12 09:47:32.570  INFO 8364 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-12 09:47:34.799  INFO 8364 --- [http-nio-8090-exec-2] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-02-12 09:47:34.800  INFO 8364 --- [http-nio-8090-exec-2] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-02-12 09:47:35.024  INFO 8364 --- [http-nio-8090-exec-2] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-02-12 09:47:36.660  INFO 8364 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2021-02-12 09:47:36.720  INFO 8364 --- [restartedMain] com.vaman.spring.boot.demo.App           : Started App in 80.237 seconds (JVM running for 87.311)
+2021-02-12 09:47:36.746  INFO 8364 --- [restartedMain] com.vaman.spring.boot.demo.App           : End
+2021-02-12 09:47:43.680  INFO 8364 --- [http-nio-8090-exec-3] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-02-12 09:47:43.681  INFO 8364 --- [http-nio-8090-exec-3] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-02-12 09:47:43.683  INFO 8364 --- [http-nio-8090-exec-3] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-02-12 09:47:44.373  INFO 8364 --- [http-nio-8090-exec-4] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-02-12 09:47:44.385  INFO 8364 --- [http-nio-8090-exec-4] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-02-12 09:47:44.388  INFO 8364 --- [http-nio-8090-exec-4] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-02-12 09:47:45.820  INFO 8364 --- [http-nio-8090-exec-5] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-02-12 09:47:45.821  INFO 8364 --- [http-nio-8090-exec-5] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-02-12 09:47:45.828  INFO 8364 --- [http-nio-8090-exec-5] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-02-12 09:48:17.727  INFO 8364 --- [http-nio-8090-exec-6] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-02-12 09:48:17.728  INFO 8364 --- [http-nio-8090-exec-6] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-02-12 09:48:17.755  WARN 8364 --- [http-nio-8090-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-02-12 09:48:17.757  INFO 8364 --- [http-nio-8090-exec-6] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-02-12 09:48:18.841  INFO 8364 --- [http-nio-8090-exec-7] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-02-12 09:48:18.843  INFO 8364 --- [http-nio-8090-exec-7] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-02-12 09:48:18.848  INFO 8364 --- [http-nio-8090-exec-7] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-02-12 09:49:24.431  INFO 8364 --- [http-nio-8090-exec-10] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-02-12 09:49:24.432  INFO 8364 --- [http-nio-8090-exec-10] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-02-12 09:49:24.450  WARN 8364 --- [http-nio-8090-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-02-12 09:49:24.452  INFO 8364 --- [http-nio-8090-exec-10] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-02-12 09:49:24.942  INFO 8364 --- [http-nio-8090-exec-1] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-02-12 09:49:24.943  INFO 8364 --- [http-nio-8090-exec-1] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-02-12 09:49:24.948  INFO 8364 --- [http-nio-8090-exec-1] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-02-12 09:49:46.704  INFO 8364 --- [http-nio-8090-exec-2] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-02-12 09:49:46.705  INFO 8364 --- [http-nio-8090-exec-2] c.v.s.b.demo.security.UserRequestFilter  : authorizationHeader
+2021-02-12 09:49:46.709  INFO 8364 --- [http-nio-8090-exec-2] c.v.spring.boot.demo.security.JwtUtil    : extractUsername
+2021-02-12 09:49:46.712  INFO 8364 --- [http-nio-8090-exec-2] c.v.spring.boot.demo.security.JwtUtil    : extractClaim
+2021-02-12 09:49:46.712  INFO 8364 --- [http-nio-8090-exec-2] c.v.spring.boot.demo.security.JwtUtil    : extractAllClaims
+2021-02-12 09:49:52.343  INFO 8364 --- [http-nio-8090-exec-2] c.v.s.b.demo.security.UserRequestFilter  : username
+2021-02-12 09:49:52.348  INFO 8364 --- [http-nio-8090-exec-2] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-02-12 09:49:52.354  INFO 8364 --- [http-nio-8090-exec-2] c.v.spring.boot.demo.security.JwtUtil    : validateToken
+2021-02-12 09:49:52.357  INFO 8364 --- [http-nio-8090-exec-2] c.v.spring.boot.demo.security.JwtUtil    : extractUsername
+2021-02-12 09:49:52.358  INFO 8364 --- [http-nio-8090-exec-2] c.v.spring.boot.demo.security.JwtUtil    : extractClaim
+2021-02-12 09:49:52.360  INFO 8364 --- [http-nio-8090-exec-2] c.v.spring.boot.demo.security.JwtUtil    : extractAllClaims
+2021-02-12 09:49:52.363  INFO 8364 --- [http-nio-8090-exec-2] c.v.spring.boot.demo.security.JwtUtil    : isTokenExpired
+2021-02-12 09:49:52.363  INFO 8364 --- [http-nio-8090-exec-2] c.v.spring.boot.demo.security.JwtUtil    : extractExpiration
+2021-02-12 09:49:52.364  INFO 8364 --- [http-nio-8090-exec-2] c.v.spring.boot.demo.security.JwtUtil    : extractClaim
+2021-02-12 09:49:52.367  INFO 8364 --- [http-nio-8090-exec-2] c.v.spring.boot.demo.security.JwtUtil    : extractAllClaims
+2021-02-12 09:49:52.369  INFO 8364 --- [http-nio-8090-exec-2] c.v.s.b.demo.security.UserRequestFilter  : userDetails
+2021-02-12 09:49:52.370  INFO 8364 --- [http-nio-8090-exec-2] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-02-12 09:49:52.379  WARN 8364 --- [http-nio-8090-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-02-12 09:49:52.380  INFO 8364 --- [http-nio-8090-exec-2] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-02-12 09:51:27.712  INFO 8364 --- [http-nio-8090-exec-7] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-02-12 09:51:27.714  INFO 8364 --- [http-nio-8090-exec-7] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-02-12 09:51:28.230  INFO 8364 --- [http-nio-8090-exec-7] com.vaman.spring.boot.demo.model.User    : User default constructor
+2021-02-12 09:51:28.231  INFO 8364 --- [http-nio-8090-exec-7] com.vaman.spring.boot.demo.model.User    : setPassword
+2021-02-12 09:51:28.232  INFO 8364 --- [http-nio-8090-exec-7] com.vaman.spring.boot.demo.model.User    : setUsername
+2021-02-12 09:51:28.299  INFO 8364 --- [http-nio-8090-exec-7] c.v.s.b.demo.controller.UserController   : login
+2021-02-12 09:51:28.311  INFO 8364 --- [http-nio-8090-exec-7] com.vaman.spring.boot.demo.model.User    : getUsername
+2021-02-12 09:51:28.317  INFO 8364 --- [http-nio-8090-exec-7] com.vaman.spring.boot.demo.model.User    : getPassword
+2021-02-12 09:51:28.321  INFO 8364 --- [http-nio-8090-exec-7] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-02-12 09:51:28.339 ERROR 8364 --- [http-nio-8090-exec-7] c.v.s.b.demo.controller.UserController   : Bad credentials
+2021-02-12 09:51:28.347  INFO 8364 --- [http-nio-8090-exec-7] c.v.s.b.demo.controller.UserController   : user authenticated
+2021-02-12 09:51:28.348  INFO 8364 --- [http-nio-8090-exec-7] com.vaman.spring.boot.demo.model.User    : getUsername
+2021-02-12 09:51:28.349  INFO 8364 --- [http-nio-8090-exec-7] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-02-12 09:51:28.349  INFO 8364 --- [http-nio-8090-exec-7] c.v.spring.boot.demo.security.JwtUtil    : generateToken
+2021-02-12 09:51:28.351  INFO 8364 --- [http-nio-8090-exec-7] c.v.spring.boot.demo.security.JwtUtil    : createToken
+2021-02-12 09:51:28.422  INFO 8364 --- [http-nio-8090-exec-7] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-02-12 09:53:28.873  INFO 8364 --- [http-nio-8090-exec-1] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-02-12 09:53:28.878  INFO 8364 --- [http-nio-8090-exec-1] c.v.s.b.demo.security.UserRequestFilter  : authorizationHeader
+2021-02-12 09:53:28.879  INFO 8364 --- [http-nio-8090-exec-1] c.v.spring.boot.demo.security.JwtUtil    : extractUsername
+2021-02-12 09:53:28.879  INFO 8364 --- [http-nio-8090-exec-1] c.v.spring.boot.demo.security.JwtUtil    : extractClaim
+2021-02-12 09:53:28.879  INFO 8364 --- [http-nio-8090-exec-1] c.v.spring.boot.demo.security.JwtUtil    : extractAllClaims
+2021-02-12 09:53:28.884  INFO 8364 --- [http-nio-8090-exec-1] c.v.s.b.demo.security.UserRequestFilter  : username
+2021-02-12 09:53:28.884  INFO 8364 --- [http-nio-8090-exec-1] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-02-12 09:53:28.885  INFO 8364 --- [http-nio-8090-exec-1] c.v.spring.boot.demo.security.JwtUtil    : validateToken
+2021-02-12 09:53:28.886  INFO 8364 --- [http-nio-8090-exec-1] c.v.spring.boot.demo.security.JwtUtil    : extractUsername
+2021-02-12 09:53:28.891  INFO 8364 --- [http-nio-8090-exec-1] c.v.spring.boot.demo.security.JwtUtil    : extractClaim
+2021-02-12 09:53:28.891  INFO 8364 --- [http-nio-8090-exec-1] c.v.spring.boot.demo.security.JwtUtil    : extractAllClaims
+2021-02-12 09:53:28.895  INFO 8364 --- [http-nio-8090-exec-1] c.v.spring.boot.demo.security.JwtUtil    : isTokenExpired
+2021-02-12 09:53:28.895  INFO 8364 --- [http-nio-8090-exec-1] c.v.spring.boot.demo.security.JwtUtil    : extractExpiration
+2021-02-12 09:53:28.896  INFO 8364 --- [http-nio-8090-exec-1] c.v.spring.boot.demo.security.JwtUtil    : extractClaim
+2021-02-12 09:53:28.896  INFO 8364 --- [http-nio-8090-exec-1] c.v.spring.boot.demo.security.JwtUtil    : extractAllClaims
+2021-02-12 09:53:28.911  INFO 8364 --- [http-nio-8090-exec-1] c.v.s.b.demo.security.UserRequestFilter  : userDetails
+2021-02-12 09:53:28.912  INFO 8364 --- [http-nio-8090-exec-1] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-02-12 09:53:28.920  INFO 8364 --- [http-nio-8090-exec-1] c.v.s.b.d.c.DepartmentController         : getAllDepartments controller
+2021-02-12 09:53:28.921  INFO 8364 --- [http-nio-8090-exec-1] c.v.s.b.demo.service.DepartmentService   : getAllDepartments service
+2021-02-12 09:53:31.808  INFO 8364 --- [http-nio-8090-exec-1] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-02-12 09:53:44.731  INFO 8364 --- [http-nio-8090-exec-3] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-02-12 09:53:44.734  INFO 8364 --- [http-nio-8090-exec-3] c.v.s.b.demo.security.UserRequestFilter  : authorizationHeader
+2021-02-12 09:53:44.735  INFO 8364 --- [http-nio-8090-exec-3] c.v.spring.boot.demo.security.JwtUtil    : extractUsername
+2021-02-12 09:53:44.735  INFO 8364 --- [http-nio-8090-exec-3] c.v.spring.boot.demo.security.JwtUtil    : extractClaim
+2021-02-12 09:53:44.736  INFO 8364 --- [http-nio-8090-exec-3] c.v.spring.boot.demo.security.JwtUtil    : extractAllClaims
+2021-02-12 09:53:44.755  INFO 8364 --- [http-nio-8090-exec-3] c.v.s.b.demo.security.UserRequestFilter  : username
+2021-02-12 09:53:44.756  INFO 8364 --- [http-nio-8090-exec-3] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-02-12 09:53:44.756  INFO 8364 --- [http-nio-8090-exec-3] c.v.spring.boot.demo.security.JwtUtil    : validateToken
+2021-02-12 09:53:44.757  INFO 8364 --- [http-nio-8090-exec-3] c.v.spring.boot.demo.security.JwtUtil    : extractUsername
+2021-02-12 09:53:44.758  INFO 8364 --- [http-nio-8090-exec-3] c.v.spring.boot.demo.security.JwtUtil    : extractClaim
+2021-02-12 09:53:44.758  INFO 8364 --- [http-nio-8090-exec-3] c.v.spring.boot.demo.security.JwtUtil    : extractAllClaims
+2021-02-12 09:53:44.760  INFO 8364 --- [http-nio-8090-exec-3] c.v.spring.boot.demo.security.JwtUtil    : isTokenExpired
+2021-02-12 09:53:44.760  INFO 8364 --- [http-nio-8090-exec-3] c.v.spring.boot.demo.security.JwtUtil    : extractExpiration
+2021-02-12 09:53:44.760  INFO 8364 --- [http-nio-8090-exec-3] c.v.spring.boot.demo.security.JwtUtil    : extractClaim
+2021-02-12 09:53:44.760  INFO 8364 --- [http-nio-8090-exec-3] c.v.spring.boot.demo.security.JwtUtil    : extractAllClaims
+2021-02-12 09:53:44.769  INFO 8364 --- [http-nio-8090-exec-3] c.v.s.b.demo.security.UserRequestFilter  : userDetails
+2021-02-12 09:53:44.775  INFO 8364 --- [http-nio-8090-exec-3] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-02-12 09:53:44.802  INFO 8364 --- [http-nio-8090-exec-3] c.v.s.b.d.c.DepartmentController         : getDepartment controller
+2021-02-12 09:53:44.802  INFO 8364 --- [http-nio-8090-exec-3] c.v.s.b.demo.service.DepartmentService   : getDepartmentById service
+2021-02-12 09:53:45.055  INFO 8364 --- [http-nio-8090-exec-3] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-02-12 09:53:52.794  INFO 8364 --- [http-nio-8090-exec-2] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-02-12 09:53:52.795  INFO 8364 --- [http-nio-8090-exec-2] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-02-12 09:53:52.798  INFO 8364 --- [http-nio-8090-exec-2] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-02-12 09:54:06.059  INFO 8364 --- [http-nio-8090-exec-4] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-02-12 09:54:06.060  INFO 8364 --- [http-nio-8090-exec-4] c.v.s.b.demo.security.UserRequestFilter  : authorizationHeader
+2021-02-12 09:54:06.060  INFO 8364 --- [http-nio-8090-exec-4] c.v.spring.boot.demo.security.JwtUtil    : extractUsername
+2021-02-12 09:54:06.061  INFO 8364 --- [http-nio-8090-exec-4] c.v.spring.boot.demo.security.JwtUtil    : extractClaim
+2021-02-12 09:54:06.061  INFO 8364 --- [http-nio-8090-exec-4] c.v.spring.boot.demo.security.JwtUtil    : extractAllClaims
+2021-02-12 09:54:06.123 ERROR 8364 --- [http-nio-8090-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+
+io.jsonwebtoken.MalformedJwtException: Unable to read JSON value: i��
+	at io.jsonwebtoken.impl.DefaultJwtParser.readValue(DefaultJwtParser.java:554) ~[jjwt-0.9.1.jar:0.9.1]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:252) ~[jjwt-0.9.1.jar:0.9.1]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:481) ~[jjwt-0.9.1.jar:0.9.1]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:541) ~[jjwt-0.9.1.jar:0.9.1]
+	at com.vaman.spring.boot.demo.security.JwtUtil.extractAllClaims(JwtUtil.java:42) ~[classes/:na]
+	at com.vaman.spring.boot.demo.security.JwtUtil.extractClaim(JwtUtil.java:36) ~[classes/:na]
+	at com.vaman.spring.boot.demo.security.JwtUtil.extractUsername(JwtUtil.java:26) ~[classes/:na]
+	at com.vaman.spring.boot.demo.security.UserRequestFilter.doFilterInternal(UserRequestFilter.java:45) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.1.jar:5.3.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.1.jar:5.4.1]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103) ~[spring-security-web-5.4.1.jar:5.4.1]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89) ~[spring-security-web-5.4.1.jar:5.4.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.1.jar:5.4.1]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-5.4.1.jar:5.4.1]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-5.4.1.jar:5.4.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.1.jar:5.3.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.1.jar:5.4.1]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110) ~[spring-security-web-5.4.1.jar:5.4.1]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80) ~[spring-security-web-5.4.1.jar:5.4.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.1.jar:5.4.1]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55) ~[spring-security-web-5.4.1.jar:5.4.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.1.jar:5.3.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.1.jar:5.4.1]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211) ~[spring-security-web-5.4.1.jar:5.4.1]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183) ~[spring-security-web-5.4.1.jar:5.4.1]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358) ~[spring-web-5.3.1.jar:5.3.1]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271) ~[spring-web-5.3.1.jar:5.3.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.1.jar:5.3.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.1.jar:5.3.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.1.jar:5.3.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.1.jar:5.3.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.1.jar:5.3.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.1.jar:5.3.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_281]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_281]
+Caused by: com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'i': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"i��"; line: 1, column: 2]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1851) ~[jackson-core-2.11.3.jar:2.11.3]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:717) ~[jackson-core-2.11.3.jar:2.11.3]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._reportInvalidToken(ReaderBasedJsonParser.java:2898) ~[jackson-core-2.11.3.jar:2.11.3]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._handleOddValue(ReaderBasedJsonParser.java:1944) ~[jackson-core-2.11.3.jar:2.11.3]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:776) ~[jackson-core-2.11.3.jar:2.11.3]
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4664) ~[jackson-databind-2.11.3.jar:2.11.3]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4513) ~[jackson-databind-2.11.3.jar:2.11.3]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3468) ~[jackson-databind-2.11.3.jar:2.11.3]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3436) ~[jackson-databind-2.11.3.jar:2.11.3]
+	at io.jsonwebtoken.impl.DefaultJwtParser.readValue(DefaultJwtParser.java:552) ~[jjwt-0.9.1.jar:0.9.1]
+	... 56 common frames omitted
+
+2021-02-12 10:32:27.546  INFO 12280 --- [restartedMain] com.vaman.spring.boot.demo.App           : Starting App using Java 1.8.0_281 on DESKTOP-KFP7J4E with PID 12280 (C:\VamanCode\eclipse-workspace-7\spring-boot-project\target\classes started by Vaman in C:\VamanCode\eclipse-workspace-7\spring-boot-project)
+2021-02-12 10:32:27.568  INFO 12280 --- [restartedMain] com.vaman.spring.boot.demo.App           : No active profile set, falling back to default profiles: default
+2021-02-12 10:32:28.068  INFO 12280 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\Vaman\.m2\repository\org\apache\derby\derby\10.14.2.0\derby-10.14.2.0.jar referenced one or more files that do not exist: file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_cs.jar,file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_de_DE.jar,file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_es.jar,file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_fr.jar,file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_hu.jar,file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_it.jar,file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_ja_JP.jar,file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_ko_KR.jar,file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_pl.jar,file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_pt_BR.jar,file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_ru.jar,file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_zh_CN.jar,file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_zh_TW.jar
+2021-02-12 10:32:28.076  INFO 12280 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-12 10:32:28.079  INFO 12280 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-12 10:32:32.367  INFO 12280 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-02-12 10:32:32.682  INFO 12280 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 247 ms. Found 2 JPA repository interfaces.
+2021-02-12 10:32:35.580  INFO 12280 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2021-02-12 10:32:35.619  INFO 12280 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-12 10:32:35.625  INFO 12280 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-02-12 10:32:35.645  INFO 12280 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2021-02-12 10:32:35.646  INFO 12280 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-02-12 10:32:35.648  INFO 12280 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-02-12 10:32:35.672  INFO 12280 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2021-02-12 10:32:36.234  INFO 12280 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-12 10:32:36.234  INFO 12280 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 8142 ms
+2021-02-12 10:32:37.312  INFO 12280 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-12 10:32:37.587  INFO 12280 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-12 10:32:38.021  INFO 12280 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.23.Final
+2021-02-12 10:32:38.089  WARN 12280 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-12 10:32:38.363  INFO 12280 --- [restartedMain] c.v.spring.boot.demo.security.JwtUtil    : configureGlobal
+2021-02-12 10:32:38.570  INFO 12280 --- [restartedMain] c.v.spring.boot.demo.security.JwtUtil    : authenticationManagerBean
+2021-02-12 10:32:39.442  INFO 12280 --- [restartedMain] c.v.spring.boot.demo.security.JwtUtil    : configure
+2021-02-12 10:32:39.484  INFO 12280 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-12 10:32:39.725  INFO 12280 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4a960ede, org.springframework.security.web.context.SecurityContextPersistenceFilter@23d5c72b, org.springframework.security.web.header.HeaderWriterFilter@614ef9b1, org.springframework.security.web.authentication.logout.LogoutFilter@7f5adfe9, com.vaman.spring.boot.demo.security.UserRequestFilter@7a38e121, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@651f7c79, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@44066c3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2e1c42ae, org.springframework.security.web.session.SessionManagementFilter@31594364, org.springframework.security.web.access.ExceptionTranslationFilter@e6ad393, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@28d1ee93]
+2021-02-12 10:32:39.778  INFO 12280 --- [restartedMain] c.v.spring.boot.demo.security.JwtUtil    : passwordEncoder
+2021-02-12 10:32:40.233  INFO 12280 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-02-12 10:32:40.237  WARN 12280 --- [task-1] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2021-02-12 10:32:41.814  INFO 12280 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-12 10:32:42.245  INFO 12280 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2021-02-12 10:32:42.257  INFO 12280 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2021-02-12 10:32:43.618  INFO 12280 --- [task-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (Feature not implemented: No details.)
+2021-02-12 10:32:43.634  INFO 12280 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-02-12 10:32:43.758  INFO 12280 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.DerbyTenSevenDialect
+2021-02-12 10:32:48.992  INFO 12280 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-12 10:32:49.027  INFO 12280 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-12 10:32:50.329  INFO 12280 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2021-02-12 10:32:50.367  INFO 12280 --- [restartedMain] com.vaman.spring.boot.demo.App           : Started App in 25.394 seconds (JVM running for 33.048)
+2021-02-12 10:32:50.382  INFO 12280 --- [restartedMain] com.vaman.spring.boot.demo.App           : End
+2021-02-12 10:33:13.358  INFO 12280 --- [http-nio-8090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-12 10:33:13.362  INFO 12280 --- [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-02-12 10:33:13.387  INFO 12280 --- [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 20 ms
+2021-02-12 10:33:13.548  INFO 12280 --- [http-nio-8090-exec-2] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-02-12 10:33:13.551  INFO 12280 --- [http-nio-8090-exec-2] c.v.s.b.demo.security.UserRequestFilter  : authorizationHeader is null
+2021-02-12 10:33:13.552  INFO 12280 --- [http-nio-8090-exec-2] c.v.spring.boot.demo.security.JwtUtil    : extractUsername
+2021-02-12 10:33:13.553  INFO 12280 --- [http-nio-8090-exec-2] c.v.spring.boot.demo.security.JwtUtil    : extractClaim
+2021-02-12 10:33:13.553  INFO 12280 --- [http-nio-8090-exec-2] c.v.spring.boot.demo.security.JwtUtil    : extractAllClaims
+2021-02-12 10:33:13.896 ERROR 12280 --- [http-nio-8090-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+
+io.jsonwebtoken.MalformedJwtException: Unable to read JSON value: i��
+	at io.jsonwebtoken.impl.DefaultJwtParser.readValue(DefaultJwtParser.java:554) ~[jjwt-0.9.1.jar:0.9.1]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:252) ~[jjwt-0.9.1.jar:0.9.1]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:481) ~[jjwt-0.9.1.jar:0.9.1]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:541) ~[jjwt-0.9.1.jar:0.9.1]
+	at com.vaman.spring.boot.demo.security.JwtUtil.extractAllClaims(JwtUtil.java:42) ~[classes/:na]
+	at com.vaman.spring.boot.demo.security.JwtUtil.extractClaim(JwtUtil.java:36) ~[classes/:na]
+	at com.vaman.spring.boot.demo.security.JwtUtil.extractUsername(JwtUtil.java:26) ~[classes/:na]
+	at com.vaman.spring.boot.demo.security.UserRequestFilter.doFilterInternal(UserRequestFilter.java:45) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.1.jar:5.3.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.1.jar:5.4.1]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103) ~[spring-security-web-5.4.1.jar:5.4.1]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89) ~[spring-security-web-5.4.1.jar:5.4.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.1.jar:5.4.1]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-5.4.1.jar:5.4.1]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-5.4.1.jar:5.4.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.1.jar:5.3.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.1.jar:5.4.1]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110) ~[spring-security-web-5.4.1.jar:5.4.1]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80) ~[spring-security-web-5.4.1.jar:5.4.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.1.jar:5.4.1]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55) ~[spring-security-web-5.4.1.jar:5.4.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.1.jar:5.3.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.1.jar:5.4.1]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211) ~[spring-security-web-5.4.1.jar:5.4.1]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183) ~[spring-security-web-5.4.1.jar:5.4.1]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358) ~[spring-web-5.3.1.jar:5.3.1]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271) ~[spring-web-5.3.1.jar:5.3.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.1.jar:5.3.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.1.jar:5.3.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.1.jar:5.3.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.1.jar:5.3.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.1.jar:5.3.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.1.jar:5.3.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_281]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.39.jar:9.0.39]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_281]
+Caused by: com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'i': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"i��"; line: 1, column: 2]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1851) ~[jackson-core-2.11.3.jar:2.11.3]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:717) ~[jackson-core-2.11.3.jar:2.11.3]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._reportInvalidToken(ReaderBasedJsonParser.java:2898) ~[jackson-core-2.11.3.jar:2.11.3]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._handleOddValue(ReaderBasedJsonParser.java:1944) ~[jackson-core-2.11.3.jar:2.11.3]
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:776) ~[jackson-core-2.11.3.jar:2.11.3]
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4664) ~[jackson-databind-2.11.3.jar:2.11.3]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4513) ~[jackson-databind-2.11.3.jar:2.11.3]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3468) ~[jackson-databind-2.11.3.jar:2.11.3]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3436) ~[jackson-databind-2.11.3.jar:2.11.3]
+	at io.jsonwebtoken.impl.DefaultJwtParser.readValue(DefaultJwtParser.java:552) ~[jjwt-0.9.1.jar:0.9.1]
+	... 56 common frames omitted
+
+2021-02-12 10:33:22.452  INFO 12280 --- [http-nio-8090-exec-3] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-02-12 10:33:22.454  INFO 12280 --- [http-nio-8090-exec-3] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-02-12 10:33:23.593  INFO 12280 --- [http-nio-8090-exec-3] com.vaman.spring.boot.demo.model.User    : User default constructor
+2021-02-12 10:33:23.596  INFO 12280 --- [http-nio-8090-exec-3] com.vaman.spring.boot.demo.model.User    : setPassword
+2021-02-12 10:33:23.597  INFO 12280 --- [http-nio-8090-exec-3] com.vaman.spring.boot.demo.model.User    : setUsername
+2021-02-12 10:33:23.632  INFO 12280 --- [http-nio-8090-exec-3] c.v.s.b.demo.controller.UserController   : login
+2021-02-12 10:33:23.634  INFO 12280 --- [http-nio-8090-exec-3] com.vaman.spring.boot.demo.model.User    : getUsername
+2021-02-12 10:33:23.634  INFO 12280 --- [http-nio-8090-exec-3] com.vaman.spring.boot.demo.model.User    : getPassword
+2021-02-12 10:33:23.643  INFO 12280 --- [http-nio-8090-exec-3] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-02-12 10:33:23.698 ERROR 12280 --- [http-nio-8090-exec-3] c.v.s.b.demo.controller.UserController   : Bad credentials
+2021-02-12 10:33:23.698  INFO 12280 --- [http-nio-8090-exec-3] c.v.s.b.demo.controller.UserController   : user authenticated
+2021-02-12 10:33:23.698  INFO 12280 --- [http-nio-8090-exec-3] com.vaman.spring.boot.demo.model.User    : getUsername
+2021-02-12 10:33:23.699  INFO 12280 --- [http-nio-8090-exec-3] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-02-12 10:33:23.699  INFO 12280 --- [http-nio-8090-exec-3] c.v.spring.boot.demo.security.JwtUtil    : generateToken
+2021-02-12 10:33:23.700  INFO 12280 --- [http-nio-8090-exec-3] c.v.spring.boot.demo.security.JwtUtil    : createToken
+2021-02-12 10:33:27.241  INFO 12280 --- [http-nio-8090-exec-3] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-02-12 10:34:06.965  INFO 12280 --- [http-nio-8090-exec-4] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-02-12 10:34:06.968  INFO 12280 --- [http-nio-8090-exec-4] c.v.s.b.demo.security.UserRequestFilter  : authorizationHeader is null
+2021-02-12 10:34:06.973  INFO 12280 --- [http-nio-8090-exec-4] c.v.spring.boot.demo.security.JwtUtil    : extractUsername
+2021-02-12 10:34:06.973  INFO 12280 --- [http-nio-8090-exec-4] c.v.spring.boot.demo.security.JwtUtil    : extractClaim
+2021-02-12 10:34:06.974  INFO 12280 --- [http-nio-8090-exec-4] c.v.spring.boot.demo.security.JwtUtil    : extractAllClaims
+2021-02-12 10:34:07.209  INFO 12280 --- [http-nio-8090-exec-4] c.v.s.b.demo.security.UserRequestFilter  : username is null
+2021-02-12 10:34:07.210  INFO 12280 --- [http-nio-8090-exec-4] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-02-12 10:34:07.210  INFO 12280 --- [http-nio-8090-exec-4] c.v.spring.boot.demo.security.JwtUtil    : validateToken
+2021-02-12 10:34:07.213  INFO 12280 --- [http-nio-8090-exec-4] c.v.spring.boot.demo.security.JwtUtil    : extractUsername
+2021-02-12 10:34:07.216  INFO 12280 --- [http-nio-8090-exec-4] c.v.spring.boot.demo.security.JwtUtil    : extractClaim
+2021-02-12 10:34:07.220  INFO 12280 --- [http-nio-8090-exec-4] c.v.spring.boot.demo.security.JwtUtil    : extractAllClaims
+2021-02-12 10:34:07.228  INFO 12280 --- [http-nio-8090-exec-4] c.v.spring.boot.demo.security.JwtUtil    : isTokenExpired
+2021-02-12 10:34:07.229  INFO 12280 --- [http-nio-8090-exec-4] c.v.spring.boot.demo.security.JwtUtil    : extractExpiration
+2021-02-12 10:34:07.230  INFO 12280 --- [http-nio-8090-exec-4] c.v.spring.boot.demo.security.JwtUtil    : extractClaim
+2021-02-12 10:34:07.245  INFO 12280 --- [http-nio-8090-exec-4] c.v.spring.boot.demo.security.JwtUtil    : extractAllClaims
+2021-02-12 10:34:07.247  INFO 12280 --- [http-nio-8090-exec-4] c.v.s.b.demo.security.UserRequestFilter  : userDetails extracted
+2021-02-12 10:34:07.249  INFO 12280 --- [http-nio-8090-exec-4] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-02-12 10:34:07.261  INFO 12280 --- [http-nio-8090-exec-4] c.v.s.b.d.c.DepartmentController         : getAllDepartments controller
+2021-02-12 10:34:07.261  INFO 12280 --- [http-nio-8090-exec-4] c.v.s.b.demo.service.DepartmentService   : getAllDepartments service
+2021-02-12 10:34:09.324  INFO 12280 --- [http-nio-8090-exec-4] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-02-12 10:37:23.057  INFO 12280 --- [Thread-8] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-12 10:37:23.075  INFO 12280 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-12 10:37:24.175  WARN 12280 --- [Thread-8] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': java.sql.SQLException: Directory E:/ness/hr cannot be removed.
+2021-02-12 10:37:24.177  INFO 12280 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-02-12 10:37:24.188  INFO 12280 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-02-12 10:37:24.952  INFO 12280 --- [restartedMain] com.vaman.spring.boot.demo.App           : Start
+2021-02-12 10:37:25.344  INFO 12280 --- [restartedMain] com.vaman.spring.boot.demo.App           : Starting App using Java 1.8.0_281 on DESKTOP-KFP7J4E with PID 12280 (C:\VamanCode\eclipse-workspace-7\spring-boot-project\target\classes started by Vaman in C:\VamanCode\eclipse-workspace-7\spring-boot-project)
+2021-02-12 10:37:25.346  INFO 12280 --- [restartedMain] com.vaman.spring.boot.demo.App           : No active profile set, falling back to default profiles: default
+2021-02-12 10:37:26.573  INFO 12280 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-02-12 10:37:26.652  INFO 12280 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 76 ms. Found 2 JPA repository interfaces.
+2021-02-12 10:37:27.165  INFO 12280 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2021-02-12 10:37:27.168  INFO 12280 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-12 10:37:27.169  INFO 12280 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-02-12 10:37:27.173  INFO 12280 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2021-02-12 10:37:27.175  INFO 12280 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-02-12 10:37:27.175  INFO 12280 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-02-12 10:37:27.176  INFO 12280 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2021-02-12 10:37:27.278  INFO 12280 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-12 10:37:27.281  INFO 12280 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1923 ms
+2021-02-12 10:37:27.588  INFO 12280 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-12 10:37:27.772  INFO 12280 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-12 10:37:27.858  INFO 12280 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2021-02-12 10:37:27.862  WARN 12280 --- [task-1] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2021-02-12 10:37:28.227  WARN 12280 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-12 10:37:28.299  INFO 12280 --- [restartedMain] c.v.spring.boot.demo.security.JwtUtil    : configureGlobal
+2021-02-12 10:37:28.385  INFO 12280 --- [restartedMain] c.v.spring.boot.demo.security.JwtUtil    : authenticationManagerBean
+2021-02-12 10:37:28.422  INFO 12280 --- [restartedMain] c.v.spring.boot.demo.security.JwtUtil    : configure
+2021-02-12 10:37:28.459  INFO 12280 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6f57d012, org.springframework.security.web.context.SecurityContextPersistenceFilter@73a95a1a, org.springframework.security.web.header.HeaderWriterFilter@26777339, org.springframework.security.web.authentication.logout.LogoutFilter@7fc812d6, com.vaman.spring.boot.demo.security.UserRequestFilter@98ba85b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@32fb90e5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2f88d338, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@28eef09b, org.springframework.security.web.session.SessionManagementFilter@21590608, org.springframework.security.web.access.ExceptionTranslationFilter@c69af4d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1507093]
+2021-02-12 10:37:28.468  INFO 12280 --- [restartedMain] c.v.spring.boot.demo.security.JwtUtil    : passwordEncoder
+2021-02-12 10:37:28.744  INFO 12280 --- [task-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-2 - Driver does not support get/set network timeout for connections. (Feature not implemented: No details.)
+2021-02-12 10:37:28.785  INFO 12280 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2021-02-12 10:37:28.792  INFO 12280 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.DerbyTenSevenDialect
+2021-02-12 10:37:29.626  INFO 12280 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-12 10:37:29.800  INFO 12280 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-12 10:37:29.805  INFO 12280 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-12 10:37:29.865  INFO 12280 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2021-02-12 10:37:29.885  INFO 12280 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2021-02-12 10:37:30.176  INFO 12280 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2021-02-12 10:37:30.213  INFO 12280 --- [restartedMain] com.vaman.spring.boot.demo.App           : Started App in 5.243 seconds (JVM running for 312.894)
+2021-02-12 10:37:30.227  INFO 12280 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-02-12 10:37:30.232  INFO 12280 --- [restartedMain] com.vaman.spring.boot.demo.App           : End
+2021-02-12 10:41:25.487  INFO 12280 --- [http-nio-8090-exec-9] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-12 10:41:25.495  INFO 12280 --- [http-nio-8090-exec-9] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-02-12 10:41:25.499  INFO 12280 --- [http-nio-8090-exec-9] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2021-02-12 10:41:25.505  INFO 12280 --- [http-nio-8090-exec-9] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-02-12 10:41:25.506  INFO 12280 --- [http-nio-8090-exec-9] c.v.s.b.demo.security.UserRequestFilter  : authorizationHeader is null
+2021-02-12 10:41:25.508  INFO 12280 --- [http-nio-8090-exec-9] c.v.spring.boot.demo.security.JwtUtil    : extractUsername
+2021-02-12 10:41:25.509  INFO 12280 --- [http-nio-8090-exec-9] c.v.spring.boot.demo.security.JwtUtil    : extractClaim
+2021-02-12 10:41:25.509  INFO 12280 --- [http-nio-8090-exec-9] c.v.spring.boot.demo.security.JwtUtil    : extractAllClaims
+2021-02-12 10:41:25.528  INFO 12280 --- [http-nio-8090-exec-9] c.v.s.b.demo.security.UserRequestFilter  : username is null
+2021-02-12 10:41:25.528  INFO 12280 --- [http-nio-8090-exec-9] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-02-12 10:41:25.530  INFO 12280 --- [http-nio-8090-exec-9] c.v.spring.boot.demo.security.JwtUtil    : validateToken
+2021-02-12 10:41:25.530  INFO 12280 --- [http-nio-8090-exec-9] c.v.spring.boot.demo.security.JwtUtil    : extractUsername
+2021-02-12 10:41:25.530  INFO 12280 --- [http-nio-8090-exec-9] c.v.spring.boot.demo.security.JwtUtil    : extractClaim
+2021-02-12 10:41:25.531  INFO 12280 --- [http-nio-8090-exec-9] c.v.spring.boot.demo.security.JwtUtil    : extractAllClaims
+2021-02-12 10:41:25.534  INFO 12280 --- [http-nio-8090-exec-9] c.v.spring.boot.demo.security.JwtUtil    : isTokenExpired
+2021-02-12 10:41:25.534  INFO 12280 --- [http-nio-8090-exec-9] c.v.spring.boot.demo.security.JwtUtil    : extractExpiration
+2021-02-12 10:41:25.535  INFO 12280 --- [http-nio-8090-exec-9] c.v.spring.boot.demo.security.JwtUtil    : extractClaim
+2021-02-12 10:41:25.536  INFO 12280 --- [http-nio-8090-exec-9] c.v.spring.boot.demo.security.JwtUtil    : extractAllClaims
+2021-02-12 10:41:25.546  INFO 12280 --- [http-nio-8090-exec-9] c.v.s.b.demo.security.UserRequestFilter  : userDetails extracted
+2021-02-12 10:41:25.547  INFO 12280 --- [http-nio-8090-exec-9] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-02-12 10:41:25.561  INFO 12280 --- [http-nio-8090-exec-9] c.v.s.b.d.c.DepartmentController         : getAllDepartments controller
+2021-02-12 10:41:25.561  INFO 12280 --- [http-nio-8090-exec-9] c.v.s.b.demo.service.DepartmentService   : getAllDepartments service
+2021-02-12 10:41:25.769  INFO 12280 --- [http-nio-8090-exec-9] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-02-12 10:51:56.409  INFO 12280 --- [http-nio-8090-exec-7] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-02-12 10:51:56.410  INFO 12280 --- [http-nio-8090-exec-7] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-02-12 10:51:56.445  WARN 12280 --- [http-nio-8090-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-02-12 10:51:56.447  INFO 12280 --- [http-nio-8090-exec-7] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-02-12 10:51:57.739  INFO 12280 --- [http-nio-8090-exec-4] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-02-12 10:51:57.750  INFO 12280 --- [http-nio-8090-exec-4] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-02-12 10:51:57.775  INFO 12280 --- [http-nio-8090-exec-4] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-02-12 11:29:56.996  INFO 12280 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-02-12 11:29:58.187  INFO 12280 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-12 11:29:58.196  INFO 12280 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-12 11:29:59.276  WARN 12280 --- [RMI TCP Connection(2)-127.0.0.1] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': java.sql.SQLException: Directory E:/ness/hr cannot be removed.
+2021-02-12 11:29:59.277  INFO 12280 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2021-02-12 11:29:59.281  INFO 12280 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2021-02-12 11:41:11.336  INFO 12196 --- [restartedMain] com.vaman.spring.boot.demo.App           : Starting App using Java 1.8.0_281 on DESKTOP-KFP7J4E with PID 12196 (C:\VamanCode\eclipse-workspace-7\spring-boot-project\target\classes started by Vaman in C:\VamanCode\eclipse-workspace-7\spring-boot-project)
+2021-02-12 11:41:11.339  INFO 12196 --- [restartedMain] com.vaman.spring.boot.demo.App           : No active profile set, falling back to default profiles: default
+2021-02-12 11:41:11.553  INFO 12196 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\Vaman\.m2\repository\org\apache\derby\derby\10.14.2.0\derby-10.14.2.0.jar referenced one or more files that do not exist: file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_cs.jar,file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_de_DE.jar,file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_es.jar,file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_fr.jar,file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_hu.jar,file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_it.jar,file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_ja_JP.jar,file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_ko_KR.jar,file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_pl.jar,file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_pt_BR.jar,file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_ru.jar,file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_zh_CN.jar,file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_zh_TW.jar
+2021-02-12 11:41:11.563  INFO 12196 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-12 11:41:11.564  INFO 12196 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-12 11:41:14.831  INFO 12196 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-02-12 11:41:15.018  INFO 12196 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 157 ms. Found 2 JPA repository interfaces.
+2021-02-12 11:41:17.778  INFO 12196 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2021-02-12 11:41:17.910  INFO 12196 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-12 11:41:17.911  INFO 12196 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-02-12 11:41:17.999  INFO 12196 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2021-02-12 11:41:18.001  INFO 12196 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-02-12 11:41:18.004  INFO 12196 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-02-12 11:41:18.025  INFO 12196 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2021-02-12 11:41:18.521  INFO 12196 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-12 11:41:18.524  INFO 12196 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6955 ms
+2021-02-12 11:41:19.910  INFO 12196 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-12 11:41:20.070  INFO 12196 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-12 11:41:20.337  WARN 12196 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-12 11:41:20.344  INFO 12196 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.23.Final
+2021-02-12 11:41:20.522  INFO 12196 --- [restartedMain] c.v.spring.boot.demo.security.JwtUtil    : configureGlobal
+2021-02-12 11:41:20.657  INFO 12196 --- [restartedMain] c.v.spring.boot.demo.security.JwtUtil    : authenticationManagerBean
+2021-02-12 11:41:21.939  INFO 12196 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-12 11:41:21.996  INFO 12196 --- [restartedMain] c.v.spring.boot.demo.security.JwtUtil    : configure
+2021-02-12 11:41:22.203  INFO 12196 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@736f438f, org.springframework.security.web.context.SecurityContextPersistenceFilter@1b463594, org.springframework.security.web.header.HeaderWriterFilter@6486f5b1, org.springframework.security.web.authentication.logout.LogoutFilter@33634e98, com.vaman.spring.boot.demo.security.UserRequestFilter@3627ecd3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2e297b62, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@35b98561, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@75199564, org.springframework.security.web.session.SessionManagementFilter@4e9eaefd, org.springframework.security.web.access.ExceptionTranslationFilter@530c688d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5c7e4aea]
+2021-02-12 11:41:22.249  INFO 12196 --- [restartedMain] c.v.spring.boot.demo.security.JwtUtil    : passwordEncoder
+2021-02-12 11:41:22.423  INFO 12196 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-02-12 11:41:22.426  WARN 12196 --- [task-1] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2021-02-12 11:41:23.524  INFO 12196 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-12 11:41:23.697  INFO 12196 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2021-02-12 11:41:23.705  INFO 12196 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2021-02-12 11:41:23.748  INFO 12196 --- [task-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (Feature not implemented: No details.)
+2021-02-12 11:41:23.762  INFO 12196 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-02-12 11:41:23.809  INFO 12196 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.DerbyTenSevenDialect
+2021-02-12 11:41:26.706  INFO 12196 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-12 11:41:26.741  INFO 12196 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-12 11:41:27.753  INFO 12196 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2021-02-12 11:41:27.801  INFO 12196 --- [restartedMain] com.vaman.spring.boot.demo.App           : Started App in 17.932 seconds (JVM running for 21.043)
+2021-02-12 11:41:27.817  INFO 12196 --- [restartedMain] com.vaman.spring.boot.demo.App           : End
+2021-02-12 11:43:48.146  INFO 12196 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-02-12 11:43:48.827  INFO 12196 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-12 11:43:48.831  INFO 12196 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-12 11:43:49.876  WARN 12196 --- [RMI TCP Connection(2)-127.0.0.1] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': java.sql.SQLException: Directory E:/ness/hr cannot be removed.
+2021-02-12 11:43:49.877  INFO 12196 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-02-12 11:43:49.887  INFO 12196 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
