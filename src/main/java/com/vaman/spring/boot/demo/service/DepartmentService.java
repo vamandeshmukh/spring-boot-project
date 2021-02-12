@@ -40,7 +40,7 @@ public class DepartmentService {
 	public Optional<Department> update(Department department, int id) {
 		System.out.println("update service");
 		return departmentRepository.findById(id).map(dept -> {
-			dept.setId(dept.getId()); // check here
+			dept.setId(dept.getId()); // use getters-setters here 
 			dept.setName(department.getName());
 			dept.setCity(department.getCity());
 			return departmentRepository.save(dept);
