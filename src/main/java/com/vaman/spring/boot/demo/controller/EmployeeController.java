@@ -12,6 +12,7 @@ import com.vaman.spring.boot.demo.service.EmployeeService;
 
 //mark class as RestController
 
+@CrossOrigin(origins = "http://localhost:4200")
 @RestController
 public class EmployeeController {
 

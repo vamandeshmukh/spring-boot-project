@@ -9,6 +9,7 @@ import org.springframework.security.authentication.BadCredentialsException;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -18,6 +19,7 @@ import com.vaman.spring.boot.demo.model.MyUser;
 import com.vaman.spring.boot.demo.security.JwtUtil;
 import com.vaman.spring.boot.demo.service.UserService;
 
+@CrossOrigin(origins = "http://localhost:4200")
 @RestController
 public class UserController {
 
@@ -34,27 +36,36 @@ public class UserController {
 
 	// test method, delete afterwards
 
+
+	@CrossOrigin(origins = "http://localhost:4200")
 	@GetMapping("/hello")
 	public String hello() {
 		log.info("hello");
 		return "Hello";
 	}
 
-	@PostMapping("/login")  // 1
+	@PostMapping("/login") // 1
 	public String login(@RequestBody MyUser myUser) {
 		log.info("login");
-		try {
-			authenticationManager
-					.authenticate(new UsernamePasswordAuthenticationToken(myUser.getUsername(), myUser.getPassword()));
-		} catch (BadCredentialsException bce) {
-			log.error(bce.getMessage());
-		} catch (AuthenticationException ae) {
-			log.error(ae.getMessage());
+		if (myUser.getUsername().equals(userDetailsService.loadUserByUsername(myUser.getUsername()).getUsername())
+				&& myUser.getPassword().equals(userDetailsService.loadUserByUsername(null).getPassword())) {
+			log.info("user authenticated");
+			return jwtTokenUtil.generateToken(userDetailsService.loadUserByUsername(myUser.getUsername()));
+		} else {
+			return "thisIsNotTheValidToken";
 		}
-		log.info("user authenticated");
+//		try {
+//			authenticationManager
+//					.authenticate(new UsernamePasswordAuthenticationToken(myUser.getUsername(), myUser.getPassword()));
+//			log.info("user authenticated");
+//			return jwtTokenUtil.generateToken(userDetailsService.loadUserByUsername(myUser.getUsername()));
+//		} catch (BadCredentialsException bce) {
+//			log.error(bce.getMessage());
+//		} catch (AuthenticationException ae) {
+//			log.error(ae.getMessage());
+//		}
+//		return "thisIsNotTheValidToken";
 
-//		return "thisIsTheTokenString";
-		return jwtTokenUtil.generateToken(userDetailsService.loadUserByUsername(myUser.getUsername())); // related to JWT 
 	}
 
 }

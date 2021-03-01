@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.*;
 import com.vaman.spring.boot.demo.model.Department;
 import com.vaman.spring.boot.demo.service.DepartmentService;
 
+@CrossOrigin(origins = "http://localhost:4200")
 @RestController
 public class DepartmentController {
 

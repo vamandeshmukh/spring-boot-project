@@ -55,10 +55,12 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 	protected void configure(HttpSecurity httpSecurity) throws Exception { // 2
 		log.info("configure");
 		httpSecurity.csrf().disable().authorizeRequests()
-		.antMatchers("/login").permitAll()
+//		.antMatchers("/*").permitAll()
+		.antMatchers("/").permitAll()
 		.antMatchers("/hello").permitAll()
-		.anyRequest().authenticated()
-				.and().exceptionHandling().and().sessionManagement()
+		.antMatchers("/login").permitAll()
+		.antMatchers("/departments").permitAll()
+				.anyRequest().authenticated().and().exceptionHandling().and().sessionManagement()
 				.sessionCreationPolicy(SessionCreationPolicy.STATELESS);
 		httpSecurity.addFilterBefore(userRequestFilter, UsernamePasswordAuthenticationFilter.class);
 	}

@@ -20,6 +20,6 @@ public class UserService implements UserDetailsService {
 	@Override
 	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
 		log.info("loadUserByUsername");
-		return new User("vaman", "vaman", new ArrayList<>());
+		return new User("user@deloitte.com", "password", new ArrayList<>());
 	}
 }
