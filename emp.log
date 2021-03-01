@@ -4664,3 +4664,963 @@ java.lang.NullPointerException: null
 2021-03-01 13:25:20.058  WARN 12664 --- [RMI TCP Connection(2)-127.0.0.1] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': java.sql.SQLException: Directory E:/ness/hr cannot be removed.
 2021-03-01 13:25:20.058  INFO 12664 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
 2021-03-01 13:25:20.063  INFO 12664 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2021-03-01 17:48:50.067  INFO 13888 --- [restartedMain] com.vaman.spring.boot.demo.App           : Starting App using Java 1.8.0_281 on DESKTOP-KFP7J4E with PID 13888 (C:\VamanCode\eclipse-workspace-7\spring-boot-project\target\classes started by Vaman in C:\VamanCode\eclipse-workspace-7\spring-boot-project)
+2021-03-01 17:48:50.070  INFO 13888 --- [restartedMain] com.vaman.spring.boot.demo.App           : No active profile set, falling back to default profiles: default
+2021-03-01 17:48:50.204  INFO 13888 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\Vaman\.m2\repository\org\apache\derby\derby\10.14.2.0\derby-10.14.2.0.jar referenced one or more files that do not exist: file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_cs.jar,file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_de_DE.jar,file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_es.jar,file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_fr.jar,file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_hu.jar,file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_it.jar,file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_ja_JP.jar,file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_ko_KR.jar,file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_pl.jar,file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_pt_BR.jar,file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_ru.jar,file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_zh_CN.jar,file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_zh_TW.jar
+2021-03-01 17:48:50.205  INFO 13888 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-03-01 17:48:50.207  INFO 13888 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-03-01 17:48:52.056  INFO 13888 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-03-01 17:48:52.199  INFO 13888 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 121 ms. Found 2 JPA repository interfaces.
+2021-03-01 17:48:54.941  INFO 13888 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2021-03-01 17:48:54.960  INFO 13888 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-01 17:48:54.961  INFO 13888 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-03-01 17:48:54.966  INFO 13888 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2021-03-01 17:48:54.967  INFO 13888 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-03-01 17:48:54.968  INFO 13888 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-03-01 17:48:54.975  INFO 13888 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2021-03-01 17:48:55.173  INFO 13888 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-01 17:48:55.173  INFO 13888 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4964 ms
+2021-03-01 17:48:55.995  INFO 13888 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-01 17:48:56.114  INFO 13888 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-01 17:48:56.313  INFO 13888 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.23.Final
+2021-03-01 17:48:56.316  WARN 13888 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-01 17:48:56.419  INFO 13888 --- [restartedMain] c.v.spring.boot.demo.security.JwtUtil    : configureGlobal
+2021-03-01 17:48:56.527  INFO 13888 --- [restartedMain] c.v.spring.boot.demo.security.JwtUtil    : authenticationManagerBean
+2021-03-01 17:48:56.894  INFO 13888 --- [restartedMain] c.v.spring.boot.demo.security.JwtUtil    : configure
+2021-03-01 17:48:56.906  INFO 13888 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-01 17:48:57.000  INFO 13888 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@57bdeeff, org.springframework.security.web.context.SecurityContextPersistenceFilter@74c210ed, org.springframework.security.web.header.HeaderWriterFilter@634ef72a, org.springframework.security.web.authentication.logout.LogoutFilter@527d0802, com.vaman.spring.boot.demo.security.UserRequestFilter@51a7f932, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@61d4ab1c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2ca2496f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@c055c75, org.springframework.security.web.session.SessionManagementFilter@3dab43ed, org.springframework.security.web.access.ExceptionTranslationFilter@69b3293e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@55f37535]
+2021-03-01 17:48:57.075  INFO 13888 --- [restartedMain] c.v.spring.boot.demo.security.JwtUtil    : passwordEncoder
+2021-03-01 17:48:57.512  INFO 13888 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-01 17:48:57.520  WARN 13888 --- [task-1] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2021-03-01 17:48:58.277  INFO 13888 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-03-01 17:48:58.658  INFO 13888 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2021-03-01 17:48:58.665  INFO 13888 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2021-03-01 17:48:58.883  INFO 13888 --- [task-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (Feature not implemented: No details.)
+2021-03-01 17:48:58.889  INFO 13888 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-01 17:48:58.942  INFO 13888 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.DerbyTenSevenDialect
+2021-03-01 17:49:01.029  INFO 13888 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-01 17:49:01.050  INFO 13888 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-01 17:49:01.596  INFO 13888 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2021-03-01 17:49:01.611  INFO 13888 --- [restartedMain] com.vaman.spring.boot.demo.App           : Started App in 12.557 seconds (JVM running for 16.038)
+2021-03-01 17:49:01.620  INFO 13888 --- [restartedMain] com.vaman.spring.boot.demo.App           : End
+2021-03-01 17:52:19.480  INFO 13888 --- [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-01 17:52:19.481  INFO 13888 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-01 17:52:19.484  INFO 13888 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2021-03-01 17:52:19.518  INFO 13888 --- [http-nio-8090-exec-1] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 17:52:19.518  INFO 13888 --- [http-nio-8090-exec-1] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 17:52:19.599  INFO 13888 --- [http-nio-8090-exec-1] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 17:52:19.623  INFO 13888 --- [http-nio-8090-exec-1] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 17:52:19.623  INFO 13888 --- [http-nio-8090-exec-1] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 17:52:19.788  INFO 13888 --- [http-nio-8090-exec-1] com.vaman.spring.boot.demo.model.MyUser  : MyUser default constructor
+2021-03-01 17:52:19.789  INFO 13888 --- [http-nio-8090-exec-1] com.vaman.spring.boot.demo.model.MyUser  : setUsername
+2021-03-01 17:52:19.790  INFO 13888 --- [http-nio-8090-exec-1] com.vaman.spring.boot.demo.model.MyUser  : setPassword
+2021-03-01 17:52:19.924  INFO 13888 --- [http-nio-8090-exec-1] c.v.s.b.demo.controller.UserController   : login
+2021-03-01 17:52:19.924  INFO 13888 --- [http-nio-8090-exec-1] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 17:52:19.924  INFO 13888 --- [http-nio-8090-exec-1] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 17:52:19.924  INFO 13888 --- [http-nio-8090-exec-1] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 17:52:19.928  INFO 13888 --- [http-nio-8090-exec-1] com.vaman.spring.boot.demo.model.MyUser  : getPassword
+2021-03-01 17:52:19.928  INFO 13888 --- [http-nio-8090-exec-1] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 17:52:19.929  INFO 13888 --- [http-nio-8090-exec-1] c.v.s.b.demo.controller.UserController   : user authenticated
+2021-03-01 17:52:19.929  INFO 13888 --- [http-nio-8090-exec-1] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 17:52:19.930  INFO 13888 --- [http-nio-8090-exec-1] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 17:52:19.932  INFO 13888 --- [http-nio-8090-exec-1] c.v.spring.boot.demo.security.JwtUtil    : generateToken
+2021-03-01 17:52:19.933  INFO 13888 --- [http-nio-8090-exec-1] c.v.spring.boot.demo.security.JwtUtil    : createToken
+2021-03-01 17:52:21.520  INFO 13888 --- [http-nio-8090-exec-1] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 17:52:30.828  INFO 13888 --- [http-nio-8090-exec-2] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 17:52:30.830  INFO 13888 --- [http-nio-8090-exec-2] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 17:52:30.835  INFO 13888 --- [http-nio-8090-exec-2] com.vaman.spring.boot.demo.model.MyUser  : MyUser default constructor
+2021-03-01 17:52:30.835  INFO 13888 --- [http-nio-8090-exec-2] com.vaman.spring.boot.demo.model.MyUser  : setUsername
+2021-03-01 17:52:30.836  INFO 13888 --- [http-nio-8090-exec-2] com.vaman.spring.boot.demo.model.MyUser  : setPassword
+2021-03-01 17:52:30.836  INFO 13888 --- [http-nio-8090-exec-2] c.v.s.b.demo.controller.UserController   : login
+2021-03-01 17:52:30.837  INFO 13888 --- [http-nio-8090-exec-2] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 17:52:30.837  INFO 13888 --- [http-nio-8090-exec-2] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 17:52:30.837  INFO 13888 --- [http-nio-8090-exec-2] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 17:52:30.837  INFO 13888 --- [http-nio-8090-exec-2] com.vaman.spring.boot.demo.model.MyUser  : getPassword
+2021-03-01 17:52:30.837  INFO 13888 --- [http-nio-8090-exec-2] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 17:52:30.837  INFO 13888 --- [http-nio-8090-exec-2] c.v.s.b.demo.controller.UserController   : user authenticated
+2021-03-01 17:52:30.837  INFO 13888 --- [http-nio-8090-exec-2] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 17:52:30.838  INFO 13888 --- [http-nio-8090-exec-2] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 17:52:30.838  INFO 13888 --- [http-nio-8090-exec-2] c.v.spring.boot.demo.security.JwtUtil    : generateToken
+2021-03-01 17:52:30.838  INFO 13888 --- [http-nio-8090-exec-2] c.v.spring.boot.demo.security.JwtUtil    : createToken
+2021-03-01 17:52:30.847  INFO 13888 --- [http-nio-8090-exec-2] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 18:11:14.430  INFO 13888 --- [http-nio-8090-exec-4] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 18:11:14.431  INFO 13888 --- [http-nio-8090-exec-4] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 18:11:14.438  INFO 13888 --- [http-nio-8090-exec-4] com.vaman.spring.boot.demo.model.MyUser  : MyUser default constructor
+2021-03-01 18:11:14.438  INFO 13888 --- [http-nio-8090-exec-4] com.vaman.spring.boot.demo.model.MyUser  : setUsername
+2021-03-01 18:11:14.438  INFO 13888 --- [http-nio-8090-exec-4] com.vaman.spring.boot.demo.model.MyUser  : setPassword
+2021-03-01 18:11:14.439  INFO 13888 --- [http-nio-8090-exec-4] c.v.s.b.demo.controller.UserController   : login
+2021-03-01 18:11:14.439  INFO 13888 --- [http-nio-8090-exec-4] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 18:11:14.439  INFO 13888 --- [http-nio-8090-exec-4] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 18:11:14.439  INFO 13888 --- [http-nio-8090-exec-4] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 18:11:14.439  INFO 13888 --- [http-nio-8090-exec-4] com.vaman.spring.boot.demo.model.MyUser  : getPassword
+2021-03-01 18:11:14.439  INFO 13888 --- [http-nio-8090-exec-4] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 18:11:14.439  INFO 13888 --- [http-nio-8090-exec-4] c.v.s.b.demo.controller.UserController   : user authenticated
+2021-03-01 18:11:14.439  INFO 13888 --- [http-nio-8090-exec-4] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 18:11:14.440  INFO 13888 --- [http-nio-8090-exec-4] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 18:11:14.440  INFO 13888 --- [http-nio-8090-exec-4] c.v.spring.boot.demo.security.JwtUtil    : generateToken
+2021-03-01 18:11:14.440  INFO 13888 --- [http-nio-8090-exec-4] c.v.spring.boot.demo.security.JwtUtil    : createToken
+2021-03-01 18:11:14.450  INFO 13888 --- [http-nio-8090-exec-4] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 18:11:34.809  INFO 13888 --- [http-nio-8090-exec-5] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 18:11:34.811  INFO 13888 --- [http-nio-8090-exec-5] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 18:11:34.815  INFO 13888 --- [http-nio-8090-exec-5] com.vaman.spring.boot.demo.model.MyUser  : MyUser default constructor
+2021-03-01 18:11:34.815  INFO 13888 --- [http-nio-8090-exec-5] com.vaman.spring.boot.demo.model.MyUser  : setUsername
+2021-03-01 18:11:34.815  INFO 13888 --- [http-nio-8090-exec-5] com.vaman.spring.boot.demo.model.MyUser  : setPassword
+2021-03-01 18:11:34.816  INFO 13888 --- [http-nio-8090-exec-5] c.v.s.b.demo.controller.UserController   : login
+2021-03-01 18:11:34.816  INFO 13888 --- [http-nio-8090-exec-5] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 18:11:34.816  INFO 13888 --- [http-nio-8090-exec-5] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 18:11:34.816  INFO 13888 --- [http-nio-8090-exec-5] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 18:11:34.816  INFO 13888 --- [http-nio-8090-exec-5] com.vaman.spring.boot.demo.model.MyUser  : getPassword
+2021-03-01 18:11:34.816  INFO 13888 --- [http-nio-8090-exec-5] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 18:11:34.830  INFO 13888 --- [http-nio-8090-exec-5] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 18:11:42.905  INFO 13888 --- [http-nio-8090-exec-6] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 18:11:42.906  INFO 13888 --- [http-nio-8090-exec-6] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 18:11:42.910  INFO 13888 --- [http-nio-8090-exec-6] com.vaman.spring.boot.demo.model.MyUser  : MyUser default constructor
+2021-03-01 18:11:42.910  INFO 13888 --- [http-nio-8090-exec-6] com.vaman.spring.boot.demo.model.MyUser  : setUsername
+2021-03-01 18:11:42.910  INFO 13888 --- [http-nio-8090-exec-6] com.vaman.spring.boot.demo.model.MyUser  : setPassword
+2021-03-01 18:11:42.911  INFO 13888 --- [http-nio-8090-exec-6] c.v.s.b.demo.controller.UserController   : login
+2021-03-01 18:11:42.912  INFO 13888 --- [http-nio-8090-exec-6] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 18:11:42.913  INFO 13888 --- [http-nio-8090-exec-6] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 18:11:42.914  INFO 13888 --- [http-nio-8090-exec-6] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 18:11:42.915  INFO 13888 --- [http-nio-8090-exec-6] com.vaman.spring.boot.demo.model.MyUser  : getPassword
+2021-03-01 18:11:42.916  INFO 13888 --- [http-nio-8090-exec-6] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 18:11:42.916  INFO 13888 --- [http-nio-8090-exec-6] c.v.s.b.demo.controller.UserController   : user authenticated
+2021-03-01 18:11:42.917  INFO 13888 --- [http-nio-8090-exec-6] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 18:11:42.917  INFO 13888 --- [http-nio-8090-exec-6] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 18:11:42.917  INFO 13888 --- [http-nio-8090-exec-6] c.v.spring.boot.demo.security.JwtUtil    : generateToken
+2021-03-01 18:11:42.919  INFO 13888 --- [http-nio-8090-exec-6] c.v.spring.boot.demo.security.JwtUtil    : createToken
+2021-03-01 18:11:42.929  INFO 13888 --- [http-nio-8090-exec-6] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 19:27:16.382  INFO 13888 --- [http-nio-8090-exec-8] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 19:27:16.400  INFO 13888 --- [http-nio-8090-exec-8] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 19:27:16.552  INFO 13888 --- [http-nio-8090-exec-8] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 19:27:16.586  INFO 13888 --- [http-nio-8090-exec-9] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 19:27:16.587  INFO 13888 --- [http-nio-8090-exec-9] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 19:27:16.621  INFO 13888 --- [http-nio-8090-exec-9] com.vaman.spring.boot.demo.model.MyUser  : MyUser default constructor
+2021-03-01 19:27:16.622  INFO 13888 --- [http-nio-8090-exec-9] com.vaman.spring.boot.demo.model.MyUser  : setUsername
+2021-03-01 19:27:16.623  INFO 13888 --- [http-nio-8090-exec-9] com.vaman.spring.boot.demo.model.MyUser  : setPassword
+2021-03-01 19:27:16.634  INFO 13888 --- [http-nio-8090-exec-9] c.v.s.b.demo.controller.UserController   : login
+2021-03-01 19:27:16.634  INFO 13888 --- [http-nio-8090-exec-9] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 19:27:16.634  INFO 13888 --- [http-nio-8090-exec-9] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 19:27:16.635  INFO 13888 --- [http-nio-8090-exec-9] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 19:27:16.636  INFO 13888 --- [http-nio-8090-exec-9] com.vaman.spring.boot.demo.model.MyUser  : getPassword
+2021-03-01 19:27:16.636  INFO 13888 --- [http-nio-8090-exec-9] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 19:27:16.636  INFO 13888 --- [http-nio-8090-exec-9] c.v.s.b.demo.controller.UserController   : user authenticated
+2021-03-01 19:27:16.636  INFO 13888 --- [http-nio-8090-exec-9] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 19:27:16.636  INFO 13888 --- [http-nio-8090-exec-9] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 19:27:16.637  INFO 13888 --- [http-nio-8090-exec-9] c.v.spring.boot.demo.security.JwtUtil    : generateToken
+2021-03-01 19:27:16.638  INFO 13888 --- [http-nio-8090-exec-9] c.v.spring.boot.demo.security.JwtUtil    : createToken
+2021-03-01 19:27:16.671  INFO 13888 --- [http-nio-8090-exec-9] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 19:27:50.633  INFO 13888 --- [http-nio-8090-exec-10] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 19:27:50.633  INFO 13888 --- [http-nio-8090-exec-10] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 19:27:50.653  INFO 13888 --- [http-nio-8090-exec-10] com.vaman.spring.boot.demo.model.MyUser  : MyUser default constructor
+2021-03-01 19:27:50.654  INFO 13888 --- [http-nio-8090-exec-10] com.vaman.spring.boot.demo.model.MyUser  : setUsername
+2021-03-01 19:27:50.655  INFO 13888 --- [http-nio-8090-exec-10] com.vaman.spring.boot.demo.model.MyUser  : setPassword
+2021-03-01 19:27:50.656  INFO 13888 --- [http-nio-8090-exec-10] c.v.s.b.demo.controller.UserController   : login
+2021-03-01 19:27:50.656  INFO 13888 --- [http-nio-8090-exec-10] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 19:27:50.657  INFO 13888 --- [http-nio-8090-exec-10] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 19:27:50.657  INFO 13888 --- [http-nio-8090-exec-10] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 19:27:50.657  INFO 13888 --- [http-nio-8090-exec-10] com.vaman.spring.boot.demo.model.MyUser  : getPassword
+2021-03-01 19:27:50.657  INFO 13888 --- [http-nio-8090-exec-10] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 19:27:50.657  INFO 13888 --- [http-nio-8090-exec-10] c.v.s.b.demo.controller.UserController   : user authenticated
+2021-03-01 19:27:50.658  INFO 13888 --- [http-nio-8090-exec-10] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 19:27:50.658  INFO 13888 --- [http-nio-8090-exec-10] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 19:27:50.658  INFO 13888 --- [http-nio-8090-exec-10] c.v.spring.boot.demo.security.JwtUtil    : generateToken
+2021-03-01 19:27:50.658  INFO 13888 --- [http-nio-8090-exec-10] c.v.spring.boot.demo.security.JwtUtil    : createToken
+2021-03-01 19:27:50.672  INFO 13888 --- [http-nio-8090-exec-10] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 19:30:44.966  INFO 13888 --- [http-nio-8090-exec-2] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 19:30:44.966  INFO 13888 --- [http-nio-8090-exec-2] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 19:30:44.980  INFO 13888 --- [http-nio-8090-exec-2] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 19:30:45.012  INFO 13888 --- [http-nio-8090-exec-3] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 19:30:45.013  INFO 13888 --- [http-nio-8090-exec-3] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 19:30:45.018  INFO 13888 --- [http-nio-8090-exec-3] com.vaman.spring.boot.demo.model.MyUser  : MyUser default constructor
+2021-03-01 19:30:45.021  INFO 13888 --- [http-nio-8090-exec-3] com.vaman.spring.boot.demo.model.MyUser  : setUsername
+2021-03-01 19:30:45.023  INFO 13888 --- [http-nio-8090-exec-3] com.vaman.spring.boot.demo.model.MyUser  : setPassword
+2021-03-01 19:30:45.023  INFO 13888 --- [http-nio-8090-exec-3] c.v.s.b.demo.controller.UserController   : login
+2021-03-01 19:30:45.023  INFO 13888 --- [http-nio-8090-exec-3] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 19:30:45.023  INFO 13888 --- [http-nio-8090-exec-3] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 19:30:45.023  INFO 13888 --- [http-nio-8090-exec-3] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 19:30:45.024  INFO 13888 --- [http-nio-8090-exec-3] com.vaman.spring.boot.demo.model.MyUser  : getPassword
+2021-03-01 19:30:45.024  INFO 13888 --- [http-nio-8090-exec-3] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 19:30:45.024  INFO 13888 --- [http-nio-8090-exec-3] c.v.s.b.demo.controller.UserController   : user authenticated
+2021-03-01 19:30:45.024  INFO 13888 --- [http-nio-8090-exec-3] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 19:30:45.024  INFO 13888 --- [http-nio-8090-exec-3] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 19:30:45.025  INFO 13888 --- [http-nio-8090-exec-3] c.v.spring.boot.demo.security.JwtUtil    : generateToken
+2021-03-01 19:30:45.025  INFO 13888 --- [http-nio-8090-exec-3] c.v.spring.boot.demo.security.JwtUtil    : createToken
+2021-03-01 19:30:45.035  INFO 13888 --- [http-nio-8090-exec-3] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 19:31:12.295  INFO 13888 --- [http-nio-8090-exec-5] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 19:31:12.296  INFO 13888 --- [http-nio-8090-exec-5] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 19:31:12.308  INFO 13888 --- [http-nio-8090-exec-5] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 19:31:12.348  INFO 13888 --- [http-nio-8090-exec-6] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 19:31:12.348  INFO 13888 --- [http-nio-8090-exec-6] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 19:31:12.352  INFO 13888 --- [http-nio-8090-exec-6] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 19:31:12.373  INFO 13888 --- [http-nio-8090-exec-7] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 19:31:12.373  INFO 13888 --- [http-nio-8090-exec-7] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 19:31:12.385  INFO 13888 --- [http-nio-8090-exec-7] c.v.s.b.demo.controller.UserController   : hello
+2021-03-01 19:31:12.394  INFO 13888 --- [http-nio-8090-exec-7] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 19:31:12.478  INFO 13888 --- [http-nio-8090-exec-8] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 19:31:12.480  INFO 13888 --- [http-nio-8090-exec-8] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 19:31:12.536  INFO 13888 --- [http-nio-8090-exec-8] c.v.s.b.d.c.DepartmentController         : getAllDepartments controller
+2021-03-01 19:31:12.545  INFO 13888 --- [http-nio-8090-exec-8] c.v.s.b.demo.service.DepartmentService   : getAllDepartments service
+2021-03-01 19:31:14.640  INFO 13888 --- [http-nio-8090-exec-8] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 19:31:43.436  INFO 13888 --- [http-nio-8090-exec-1] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 19:31:43.437  INFO 13888 --- [http-nio-8090-exec-1] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 19:31:43.442  INFO 13888 --- [http-nio-8090-exec-1] c.v.s.b.demo.controller.UserController   : hello
+2021-03-01 19:31:43.449  INFO 13888 --- [http-nio-8090-exec-1] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 19:31:43.459  INFO 13888 --- [http-nio-8090-exec-2] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 19:31:43.461  INFO 13888 --- [http-nio-8090-exec-2] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 19:31:43.463  INFO 13888 --- [http-nio-8090-exec-2] c.v.s.b.d.c.DepartmentController         : getAllDepartments controller
+2021-03-01 19:31:43.463  INFO 13888 --- [http-nio-8090-exec-2] c.v.s.b.demo.service.DepartmentService   : getAllDepartments service
+2021-03-01 19:31:43.474  INFO 13888 --- [http-nio-8090-exec-2] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 19:31:56.057  INFO 13888 --- [http-nio-8090-exec-4] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 19:31:56.058  INFO 13888 --- [http-nio-8090-exec-4] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 19:31:56.061  INFO 13888 --- [http-nio-8090-exec-4] c.v.s.b.demo.controller.UserController   : hello
+2021-03-01 19:31:56.068  INFO 13888 --- [http-nio-8090-exec-4] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 19:31:56.097  INFO 13888 --- [http-nio-8090-exec-5] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 19:31:56.097  INFO 13888 --- [http-nio-8090-exec-5] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 19:31:56.101  INFO 13888 --- [http-nio-8090-exec-5] c.v.s.b.d.c.DepartmentController         : getAllDepartments controller
+2021-03-01 19:31:56.101  INFO 13888 --- [http-nio-8090-exec-5] c.v.s.b.demo.service.DepartmentService   : getAllDepartments service
+2021-03-01 19:31:56.128  INFO 13888 --- [http-nio-8090-exec-5] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 19:32:05.549  INFO 13888 --- [http-nio-8090-exec-6] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 19:32:05.550  INFO 13888 --- [http-nio-8090-exec-6] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 19:32:05.552  INFO 13888 --- [http-nio-8090-exec-6] c.v.s.b.demo.controller.UserController   : hello
+2021-03-01 19:32:05.562  INFO 13888 --- [http-nio-8090-exec-6] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 19:32:05.568  INFO 13888 --- [http-nio-8090-exec-7] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 19:32:05.568  INFO 13888 --- [http-nio-8090-exec-7] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 19:32:05.570  INFO 13888 --- [http-nio-8090-exec-7] c.v.s.b.d.c.DepartmentController         : getAllDepartments controller
+2021-03-01 19:32:05.571  INFO 13888 --- [http-nio-8090-exec-7] c.v.s.b.demo.service.DepartmentService   : getAllDepartments service
+2021-03-01 19:32:05.587  INFO 13888 --- [http-nio-8090-exec-7] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 19:33:04.688  INFO 13888 --- [http-nio-8090-exec-9] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 19:33:04.689  INFO 13888 --- [http-nio-8090-exec-9] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 19:33:04.692  INFO 13888 --- [http-nio-8090-exec-9] c.v.s.b.demo.controller.UserController   : hello
+2021-03-01 19:33:04.700  INFO 13888 --- [http-nio-8090-exec-9] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 19:33:04.772  INFO 13888 --- [http-nio-8090-exec-10] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 19:33:04.772  INFO 13888 --- [http-nio-8090-exec-10] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 19:33:04.774  INFO 13888 --- [http-nio-8090-exec-10] c.v.s.b.d.c.DepartmentController         : getAllDepartments controller
+2021-03-01 19:33:04.775  INFO 13888 --- [http-nio-8090-exec-10] c.v.s.b.demo.service.DepartmentService   : getAllDepartments service
+2021-03-01 19:33:04.788  INFO 13888 --- [http-nio-8090-exec-10] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 19:33:07.851  INFO 13888 --- [http-nio-8090-exec-2] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 19:33:07.853  INFO 13888 --- [http-nio-8090-exec-2] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 19:33:07.854  INFO 13888 --- [http-nio-8090-exec-2] c.v.s.b.demo.controller.UserController   : hello
+2021-03-01 19:33:07.869  INFO 13888 --- [http-nio-8090-exec-2] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 19:33:07.933  INFO 13888 --- [http-nio-8090-exec-3] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 19:33:07.933  INFO 13888 --- [http-nio-8090-exec-3] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 19:33:07.935  INFO 13888 --- [http-nio-8090-exec-3] c.v.s.b.d.c.DepartmentController         : getAllDepartments controller
+2021-03-01 19:33:07.936  INFO 13888 --- [http-nio-8090-exec-3] c.v.s.b.demo.service.DepartmentService   : getAllDepartments service
+2021-03-01 19:33:07.958  INFO 13888 --- [http-nio-8090-exec-3] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 19:33:15.366  INFO 13888 --- [http-nio-8090-exec-4] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 19:33:15.369  INFO 13888 --- [http-nio-8090-exec-5] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 19:33:15.370  INFO 13888 --- [http-nio-8090-exec-5] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 19:33:15.387  INFO 13888 --- [http-nio-8090-exec-5] c.v.s.b.d.c.DepartmentController         : getAllDepartments controller
+2021-03-01 19:33:15.387  INFO 13888 --- [http-nio-8090-exec-5] c.v.s.b.demo.service.DepartmentService   : getAllDepartments service
+2021-03-01 19:33:15.370  INFO 13888 --- [http-nio-8090-exec-4] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 19:33:15.391  INFO 13888 --- [http-nio-8090-exec-4] c.v.s.b.demo.controller.UserController   : hello
+2021-03-01 19:33:15.401  INFO 13888 --- [http-nio-8090-exec-4] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 19:33:15.410  INFO 13888 --- [http-nio-8090-exec-5] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 19:33:24.519  INFO 13888 --- [http-nio-8090-exec-8] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 19:33:24.519  INFO 13888 --- [http-nio-8090-exec-8] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 19:33:24.521  INFO 13888 --- [http-nio-8090-exec-8] c.v.s.b.demo.controller.UserController   : hello
+2021-03-01 19:33:24.523  INFO 13888 --- [http-nio-8090-exec-8] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 19:33:24.547  INFO 13888 --- [http-nio-8090-exec-9] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 19:33:24.551  INFO 13888 --- [http-nio-8090-exec-9] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 19:33:24.557  INFO 13888 --- [http-nio-8090-exec-9] c.v.s.b.d.c.DepartmentController         : getAllDepartments controller
+2021-03-01 19:33:24.557  INFO 13888 --- [http-nio-8090-exec-9] c.v.s.b.demo.service.DepartmentService   : getAllDepartments service
+2021-03-01 19:33:24.569  INFO 13888 --- [http-nio-8090-exec-9] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 19:33:35.847  INFO 13888 --- [http-nio-8090-exec-2] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 19:33:35.847  INFO 13888 --- [http-nio-8090-exec-2] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 19:33:35.852  INFO 13888 --- [http-nio-8090-exec-2] c.v.s.b.demo.controller.UserController   : hello
+2021-03-01 19:33:35.855  INFO 13888 --- [http-nio-8090-exec-2] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 19:33:35.870  INFO 13888 --- [http-nio-8090-exec-3] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 19:33:35.870  INFO 13888 --- [http-nio-8090-exec-3] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 19:33:35.872  INFO 13888 --- [http-nio-8090-exec-3] c.v.s.b.d.c.DepartmentController         : getAllDepartments controller
+2021-03-01 19:33:35.872  INFO 13888 --- [http-nio-8090-exec-3] c.v.s.b.demo.service.DepartmentService   : getAllDepartments service
+2021-03-01 19:33:35.885  INFO 13888 --- [http-nio-8090-exec-3] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 19:50:35.267  INFO 13888 --- [http-nio-8090-exec-4] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 19:50:35.271  INFO 13888 --- [http-nio-8090-exec-4] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 19:50:35.279  INFO 13888 --- [http-nio-8090-exec-4] c.v.s.b.demo.controller.UserController   : hello
+2021-03-01 19:50:35.285  INFO 13888 --- [http-nio-8090-exec-4] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 19:50:35.308  INFO 13888 --- [http-nio-8090-exec-6] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 19:50:35.309  INFO 13888 --- [http-nio-8090-exec-6] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 19:50:35.311  INFO 13888 --- [http-nio-8090-exec-6] c.v.s.b.d.c.DepartmentController         : getAllDepartments controller
+2021-03-01 19:50:35.311  INFO 13888 --- [http-nio-8090-exec-6] c.v.s.b.demo.service.DepartmentService   : getAllDepartments service
+2021-03-01 19:50:35.325  INFO 13888 --- [http-nio-8090-exec-6] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 19:50:40.395  INFO 13888 --- [http-nio-8090-exec-7] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 19:50:40.395  INFO 13888 --- [http-nio-8090-exec-7] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 19:50:40.397  INFO 13888 --- [http-nio-8090-exec-7] c.v.s.b.demo.controller.UserController   : hello
+2021-03-01 19:50:40.402  INFO 13888 --- [http-nio-8090-exec-7] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 19:50:40.410  INFO 13888 --- [http-nio-8090-exec-8] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 19:50:40.411  INFO 13888 --- [http-nio-8090-exec-8] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 19:50:40.414  INFO 13888 --- [http-nio-8090-exec-8] c.v.s.b.d.c.DepartmentController         : getAllDepartments controller
+2021-03-01 19:50:40.414  INFO 13888 --- [http-nio-8090-exec-8] c.v.s.b.demo.service.DepartmentService   : getAllDepartments service
+2021-03-01 19:50:40.432  INFO 13888 --- [http-nio-8090-exec-8] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 20:00:59.127  INFO 13888 --- [http-nio-8090-exec-10] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 20:00:59.128  INFO 13888 --- [http-nio-8090-exec-10] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 20:00:59.130  INFO 13888 --- [http-nio-8090-exec-10] c.v.s.b.demo.controller.UserController   : hello
+2021-03-01 20:00:59.137  INFO 13888 --- [http-nio-8090-exec-10] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 20:00:59.187  INFO 13888 --- [http-nio-8090-exec-1] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 20:00:59.187  INFO 13888 --- [http-nio-8090-exec-1] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 20:00:59.189  INFO 13888 --- [http-nio-8090-exec-1] c.v.s.b.d.c.DepartmentController         : getAllDepartments controller
+2021-03-01 20:00:59.190  INFO 13888 --- [http-nio-8090-exec-1] c.v.s.b.demo.service.DepartmentService   : getAllDepartments service
+2021-03-01 20:00:59.214  INFO 13888 --- [http-nio-8090-exec-1] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 20:01:05.151  INFO 13888 --- [http-nio-8090-exec-3] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 20:01:05.152  INFO 13888 --- [http-nio-8090-exec-3] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 20:01:05.156  INFO 13888 --- [http-nio-8090-exec-3] c.v.s.b.demo.controller.UserController   : hello
+2021-03-01 20:01:05.166  INFO 13888 --- [http-nio-8090-exec-3] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 20:01:05.199  INFO 13888 --- [http-nio-8090-exec-5] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 20:01:05.200  INFO 13888 --- [http-nio-8090-exec-5] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 20:01:05.202  INFO 13888 --- [http-nio-8090-exec-5] c.v.s.b.d.c.DepartmentController         : getAllDepartments controller
+2021-03-01 20:01:05.202  INFO 13888 --- [http-nio-8090-exec-5] c.v.s.b.demo.service.DepartmentService   : getAllDepartments service
+2021-03-01 20:01:05.215  INFO 13888 --- [http-nio-8090-exec-5] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 20:15:32.887  INFO 13888 --- [Thread-8] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-01 20:15:33.010  INFO 13888 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-01 20:15:34.871  WARN 13888 --- [Thread-8] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': java.sql.SQLException: Directory E:/ness/hr cannot be removed.
+2021-03-01 20:15:34.872  INFO 13888 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-03-01 20:15:34.985  INFO 13888 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-03-01 20:15:36.251  INFO 13888 --- [restartedMain] com.vaman.spring.boot.demo.App           : Start
+2021-03-01 20:15:36.763  INFO 13888 --- [restartedMain] com.vaman.spring.boot.demo.App           : Starting App using Java 1.8.0_281 on DESKTOP-KFP7J4E with PID 13888 (C:\VamanCode\eclipse-workspace-7\spring-boot-project\target\classes started by Vaman in C:\VamanCode\eclipse-workspace-7\spring-boot-project)
+2021-03-01 20:15:36.764  INFO 13888 --- [restartedMain] com.vaman.spring.boot.demo.App           : No active profile set, falling back to default profiles: default
+2021-03-01 20:15:40.201  INFO 13888 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-03-01 20:15:40.281  INFO 13888 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 78 ms. Found 2 JPA repository interfaces.
+2021-03-01 20:15:43.012  INFO 13888 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2021-03-01 20:15:43.015  INFO 13888 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-01 20:15:43.016  INFO 13888 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-03-01 20:15:43.017  INFO 13888 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2021-03-01 20:15:43.018  INFO 13888 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-03-01 20:15:43.019  INFO 13888 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-03-01 20:15:43.023  INFO 13888 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2021-03-01 20:15:43.062  INFO 13888 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-01 20:15:43.063  INFO 13888 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6114 ms
+2021-03-01 20:15:44.028  INFO 13888 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-01 20:15:44.061  INFO 13888 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-01 20:15:44.113  INFO 13888 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2021-03-01 20:15:44.114  WARN 13888 --- [task-1] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2021-03-01 20:15:44.284  WARN 13888 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-01 20:15:44.339  INFO 13888 --- [restartedMain] c.v.spring.boot.demo.security.JwtUtil    : configureGlobal
+2021-03-01 20:15:44.357  INFO 13888 --- [restartedMain] c.v.spring.boot.demo.security.JwtUtil    : authenticationManagerBean
+2021-03-01 20:15:44.412  WARN 13888 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springSecurityFilterChain' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	Syntax error on tokens, delete these tokens
+
+2021-03-01 20:15:44.413  INFO 13888 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-01 20:15:44.869  INFO 13888 --- [task-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-2 - Driver does not support get/set network timeout for connections. (Feature not implemented: No details.)
+2021-03-01 20:15:44.871  INFO 13888 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2021-03-01 20:15:44.891  INFO 13888 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.DerbyTenSevenDialect
+2021-03-01 20:15:45.175  INFO 13888 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-01 20:15:45.176  INFO 13888 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-01 20:15:45.177  INFO 13888 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-01 20:15:45.847  WARN 13888 --- [restartedMain] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': java.sql.SQLException: Directory E:/ness/hr cannot be removed.
+2021-03-01 20:15:45.847  INFO 13888 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2021-03-01 20:15:45.850  INFO 13888 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2021-03-01 20:15:45.852  INFO 13888 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-03-01 20:15:45.869  INFO 13888 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-03-01 20:15:45.978 ERROR 13888 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springSecurityFilterChain' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	Syntax error on tokens, delete these tokens
+
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:656) ~[spring-beans-5.3.1.jar:5.3.1]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:484) ~[spring-beans-5.3.1.jar:5.3.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336) ~[spring-beans-5.3.1.jar:5.3.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1179) ~[spring-beans-5.3.1.jar:5.3.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:571) ~[spring-beans-5.3.1.jar:5.3.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531) ~[spring-beans-5.3.1.jar:5.3.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.1.jar:5.3.1]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.1.jar:5.3.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.1.jar:5.3.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.1.jar:5.3.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322) ~[spring-beans-5.3.1.jar:5.3.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.1.jar:5.3.1]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944) ~[spring-beans-5.3.1.jar:5.3.1]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:925) ~[spring-context-5.3.1.jar:5.3.1]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:588) ~[spring-context-5.3.1.jar:5.3.1]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144) ~[spring-boot-2.4.0.jar:2.4.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767) [spring-boot-2.4.0.jar:2.4.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759) [spring-boot-2.4.0.jar:2.4.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426) [spring-boot-2.4.0.jar:2.4.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326) [spring-boot-2.4.0.jar:2.4.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1309) [spring-boot-2.4.0.jar:2.4.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1298) [spring-boot-2.4.0.jar:2.4.0]
+	at com.vaman.spring.boot.demo.App.main(App.java:26) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_281]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.4.0.jar:2.4.0]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	Syntax error on tokens, delete these tokens
+
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.3.1.jar:5.3.1]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:651) ~[spring-beans-5.3.1.jar:5.3.1]
+	... 27 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	Syntax error on tokens, delete these tokens
+
+	at com.vaman.spring.boot.demo.security.SecurityConfig.configure(SecurityConfig.java:62) ~[classes/:na]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.getHttp(WebSecurityConfigurerAdapter.java:217) ~[spring-security-config-5.4.1.jar:5.4.1]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.init(WebSecurityConfigurerAdapter.java:315) ~[spring-security-config-5.4.1.jar:5.4.1]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.init(WebSecurityConfigurerAdapter.java:93) ~[spring-security-config-5.4.1.jar:5.4.1]
+	at com.vaman.spring.boot.demo.security.SecurityConfig$$EnhancerBySpringCGLIB$$a12feefe.init(<generated>) ~[classes/:na]
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.init(AbstractConfiguredSecurityBuilder.java:338) ~[spring-security-config-5.4.1.jar:5.4.1]
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.doBuild(AbstractConfiguredSecurityBuilder.java:300) ~[spring-security-config-5.4.1.jar:5.4.1]
+	at org.springframework.security.config.annotation.AbstractSecurityBuilder.build(AbstractSecurityBuilder.java:38) ~[spring-security-config-5.4.1.jar:5.4.1]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration.springSecurityFilterChain(WebSecurityConfiguration.java:127) ~[spring-security-config-5.4.1.jar:5.4.1]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_281]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.3.1.jar:5.3.1]
+	... 28 common frames omitted
+
+2021-03-01 20:15:47.506  INFO 13888 --- [restartedMain] com.vaman.spring.boot.demo.App           : Start
+2021-03-01 20:15:47.656  INFO 13888 --- [restartedMain] com.vaman.spring.boot.demo.App           : Starting App using Java 1.8.0_281 on DESKTOP-KFP7J4E with PID 13888 (C:\VamanCode\eclipse-workspace-7\spring-boot-project\target\classes started by Vaman in C:\VamanCode\eclipse-workspace-7\spring-boot-project)
+2021-03-01 20:15:47.657  INFO 13888 --- [restartedMain] com.vaman.spring.boot.demo.App           : No active profile set, falling back to default profiles: default
+2021-03-01 20:15:48.746  INFO 13888 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-03-01 20:15:48.895  INFO 13888 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 147 ms. Found 2 JPA repository interfaces.
+2021-03-01 20:15:49.521  INFO 13888 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2021-03-01 20:15:49.523  INFO 13888 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-01 20:15:49.524  INFO 13888 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-03-01 20:15:49.527  INFO 13888 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2021-03-01 20:15:49.528  INFO 13888 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-03-01 20:15:49.529  INFO 13888 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-03-01 20:15:49.530  INFO 13888 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2021-03-01 20:15:49.580  INFO 13888 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2021-03-01 20:15:49.581  INFO 13888 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1897 ms
+2021-03-01 20:15:49.697  INFO 13888 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-01 20:15:49.712  INFO 13888 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-01 20:15:49.735  INFO 13888 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2021-03-01 20:15:49.736  WARN 13888 --- [task-1] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2021-03-01 20:15:49.829  WARN 13888 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-01 20:15:49.881  INFO 13888 --- [restartedMain] c.v.spring.boot.demo.security.JwtUtil    : configureGlobal
+2021-03-01 20:15:49.928  INFO 13888 --- [restartedMain] c.v.spring.boot.demo.security.JwtUtil    : authenticationManagerBean
+2021-03-01 20:15:49.970  WARN 13888 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springSecurityFilterChain' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	Syntax error on tokens, delete these tokens
+
+2021-03-01 20:15:49.971  INFO 13888 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-01 20:15:50.140  INFO 13888 --- [task-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-3 - Driver does not support get/set network timeout for connections. (Feature not implemented: No details.)
+2021-03-01 20:15:50.142  INFO 13888 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2021-03-01 20:15:50.143  INFO 13888 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.DerbyTenSevenDialect
+2021-03-01 20:15:50.346  INFO 13888 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-01 20:15:50.347  INFO 13888 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-01 20:15:50.351  INFO 13888 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-01 20:15:51.236  WARN 13888 --- [restartedMain] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': java.sql.SQLException: Directory E:/ness/hr cannot be removed.
+2021-03-01 20:15:51.237  INFO 13888 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2021-03-01 20:15:51.518  INFO 13888 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2021-03-01 20:15:51.525  INFO 13888 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-03-01 20:15:51.544  INFO 13888 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-03-01 20:15:51.553 ERROR 13888 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springSecurityFilterChain' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	Syntax error on tokens, delete these tokens
+
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:656) ~[spring-beans-5.3.1.jar:5.3.1]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:484) ~[spring-beans-5.3.1.jar:5.3.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336) ~[spring-beans-5.3.1.jar:5.3.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1179) ~[spring-beans-5.3.1.jar:5.3.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:571) ~[spring-beans-5.3.1.jar:5.3.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531) ~[spring-beans-5.3.1.jar:5.3.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.1.jar:5.3.1]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.1.jar:5.3.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.1.jar:5.3.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.1.jar:5.3.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322) ~[spring-beans-5.3.1.jar:5.3.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.1.jar:5.3.1]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944) ~[spring-beans-5.3.1.jar:5.3.1]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:925) ~[spring-context-5.3.1.jar:5.3.1]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:588) ~[spring-context-5.3.1.jar:5.3.1]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144) ~[spring-boot-2.4.0.jar:2.4.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767) [spring-boot-2.4.0.jar:2.4.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759) [spring-boot-2.4.0.jar:2.4.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426) [spring-boot-2.4.0.jar:2.4.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326) [spring-boot-2.4.0.jar:2.4.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1309) [spring-boot-2.4.0.jar:2.4.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1298) [spring-boot-2.4.0.jar:2.4.0]
+	at com.vaman.spring.boot.demo.App.main(App.java:26) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_281]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.4.0.jar:2.4.0]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	Syntax error on tokens, delete these tokens
+
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.3.1.jar:5.3.1]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:651) ~[spring-beans-5.3.1.jar:5.3.1]
+	... 27 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	Syntax error on tokens, delete these tokens
+
+	at com.vaman.spring.boot.demo.security.SecurityConfig.configure(SecurityConfig.java:62) ~[classes/:na]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.getHttp(WebSecurityConfigurerAdapter.java:217) ~[spring-security-config-5.4.1.jar:5.4.1]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.init(WebSecurityConfigurerAdapter.java:315) ~[spring-security-config-5.4.1.jar:5.4.1]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.init(WebSecurityConfigurerAdapter.java:93) ~[spring-security-config-5.4.1.jar:5.4.1]
+	at com.vaman.spring.boot.demo.security.SecurityConfig$$EnhancerBySpringCGLIB$$a12feefe.init(<generated>) ~[classes/:na]
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.init(AbstractConfiguredSecurityBuilder.java:338) ~[spring-security-config-5.4.1.jar:5.4.1]
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.doBuild(AbstractConfiguredSecurityBuilder.java:300) ~[spring-security-config-5.4.1.jar:5.4.1]
+	at org.springframework.security.config.annotation.AbstractSecurityBuilder.build(AbstractSecurityBuilder.java:38) ~[spring-security-config-5.4.1.jar:5.4.1]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration.springSecurityFilterChain(WebSecurityConfiguration.java:127) ~[spring-security-config-5.4.1.jar:5.4.1]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_281]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.3.1.jar:5.3.1]
+	... 28 common frames omitted
+
+2021-03-01 20:19:39.974  INFO 6264 --- [restartedMain] com.vaman.spring.boot.demo.App           : Starting App using Java 1.8.0_281 on DESKTOP-KFP7J4E with PID 6264 (C:\VamanCode\eclipse-workspace-7\spring-boot-project\target\classes started by Vaman in C:\VamanCode\eclipse-workspace-7\spring-boot-project)
+2021-03-01 20:19:39.980  INFO 6264 --- [restartedMain] com.vaman.spring.boot.demo.App           : No active profile set, falling back to default profiles: default
+2021-03-01 20:19:40.165  INFO 6264 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\Vaman\.m2\repository\org\apache\derby\derby\10.14.2.0\derby-10.14.2.0.jar referenced one or more files that do not exist: file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_cs.jar,file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_de_DE.jar,file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_es.jar,file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_fr.jar,file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_hu.jar,file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_it.jar,file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_ja_JP.jar,file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_ko_KR.jar,file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_pl.jar,file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_pt_BR.jar,file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_ru.jar,file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_zh_CN.jar,file:/C:/Users/Vaman/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_zh_TW.jar
+2021-03-01 20:19:40.167  INFO 6264 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-03-01 20:19:40.169  INFO 6264 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-03-01 20:19:41.856  INFO 6264 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-03-01 20:19:42.011  INFO 6264 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 131 ms. Found 2 JPA repository interfaces.
+2021-03-01 20:19:43.826  INFO 6264 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2021-03-01 20:19:43.846  INFO 6264 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-01 20:19:43.846  INFO 6264 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-03-01 20:19:43.853  INFO 6264 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2021-03-01 20:19:43.853  INFO 6264 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-03-01 20:19:43.854  INFO 6264 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-03-01 20:19:43.861  INFO 6264 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2021-03-01 20:19:44.067  INFO 6264 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-01 20:19:44.068  INFO 6264 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3894 ms
+2021-03-01 20:19:44.903  INFO 6264 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-01 20:19:45.035  INFO 6264 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-01 20:19:45.341  INFO 6264 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.23.Final
+2021-03-01 20:19:45.400  WARN 6264 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-01 20:19:45.523  INFO 6264 --- [restartedMain] c.v.spring.boot.demo.security.JwtUtil    : configureGlobal
+2021-03-01 20:19:45.619  INFO 6264 --- [restartedMain] c.v.spring.boot.demo.security.JwtUtil    : authenticationManagerBean
+2021-03-01 20:19:45.965  INFO 6264 --- [restartedMain] c.v.spring.boot.demo.security.JwtUtil    : configure
+2021-03-01 20:19:45.984  INFO 6264 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-01 20:19:46.079  INFO 6264 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1e6626c2, org.springframework.security.web.context.SecurityContextPersistenceFilter@73f90d4c, org.springframework.security.web.header.HeaderWriterFilter@4105ec61, org.springframework.security.web.authentication.logout.LogoutFilter@de94b79, com.vaman.spring.boot.demo.security.UserRequestFilter@705530a3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@596135ed, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@49b4ec97, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@17963523, org.springframework.security.web.session.SessionManagementFilter@67703eaf, org.springframework.security.web.access.ExceptionTranslationFilter@22e18af0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5209ec08]
+2021-03-01 20:19:46.132  INFO 6264 --- [restartedMain] c.v.spring.boot.demo.security.JwtUtil    : passwordEncoder
+2021-03-01 20:19:46.370  INFO 6264 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-01 20:19:46.376  WARN 6264 --- [task-1] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2021-03-01 20:19:46.941  INFO 6264 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-03-01 20:19:47.065  INFO 6264 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2021-03-01 20:19:47.074  INFO 6264 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2021-03-01 20:19:47.513  INFO 6264 --- [task-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (Feature not implemented: No details.)
+2021-03-01 20:19:47.519  INFO 6264 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-01 20:19:47.548  INFO 6264 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.DerbyTenSevenDialect
+2021-03-01 20:19:49.157  INFO 6264 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-01 20:19:49.180  INFO 6264 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-01 20:19:49.753  INFO 6264 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2021-03-01 20:19:49.771  INFO 6264 --- [restartedMain] com.vaman.spring.boot.demo.App           : Started App in 10.725 seconds (JVM running for 13.265)
+2021-03-01 20:19:49.779  INFO 6264 --- [restartedMain] com.vaman.spring.boot.demo.App           : End
+2021-03-01 21:23:05.803  INFO 6264 --- [http-nio-8090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-01 21:23:05.803  INFO 6264 --- [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-01 21:23:05.806  INFO 6264 --- [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-03-01 21:23:05.909  INFO 6264 --- [http-nio-8090-exec-2] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 21:23:05.910  INFO 6264 --- [http-nio-8090-exec-2] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 21:23:05.944  INFO 6264 --- [http-nio-8090-exec-1] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 21:23:05.945  INFO 6264 --- [http-nio-8090-exec-1] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 21:23:06.111  INFO 6264 --- [http-nio-8090-exec-1] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 21:23:06.160  INFO 6264 --- [http-nio-8090-exec-2] c.v.s.b.demo.controller.UserController   : hello
+2021-03-01 21:23:06.378  INFO 6264 --- [http-nio-8090-exec-2] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 21:23:06.740  INFO 6264 --- [http-nio-8090-exec-4] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 21:23:06.740  INFO 6264 --- [http-nio-8090-exec-4] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 21:23:06.747  INFO 6264 --- [http-nio-8090-exec-4] c.v.s.b.demo.controller.UserController   : hello
+2021-03-01 21:23:06.758  INFO 6264 --- [http-nio-8090-exec-4] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 21:23:06.770  INFO 6264 --- [http-nio-8090-exec-3] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 21:23:06.771  INFO 6264 --- [http-nio-8090-exec-3] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 21:23:06.772  INFO 6264 --- [http-nio-8090-exec-3] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 21:44:42.519  INFO 6264 --- [http-nio-8090-exec-6] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 21:44:42.521  INFO 6264 --- [http-nio-8090-exec-6] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 21:44:42.544  INFO 6264 --- [http-nio-8090-exec-6] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 21:44:42.561  INFO 6264 --- [http-nio-8090-exec-7] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 21:44:42.565  INFO 6264 --- [http-nio-8090-exec-7] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 21:44:42.666  INFO 6264 --- [http-nio-8090-exec-7] com.vaman.spring.boot.demo.model.MyUser  : MyUser default constructor
+2021-03-01 21:44:42.667  INFO 6264 --- [http-nio-8090-exec-7] com.vaman.spring.boot.demo.model.MyUser  : setUsername
+2021-03-01 21:44:42.668  INFO 6264 --- [http-nio-8090-exec-7] com.vaman.spring.boot.demo.model.MyUser  : setPassword
+2021-03-01 21:44:42.694  INFO 6264 --- [http-nio-8090-exec-7] c.v.s.b.demo.controller.UserController   : login
+2021-03-01 21:44:42.694  INFO 6264 --- [http-nio-8090-exec-7] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 21:44:42.694  INFO 6264 --- [http-nio-8090-exec-7] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 21:44:42.695  INFO 6264 --- [http-nio-8090-exec-7] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 21:44:42.702  INFO 6264 --- [http-nio-8090-exec-7] com.vaman.spring.boot.demo.model.MyUser  : getPassword
+2021-03-01 21:44:42.703  INFO 6264 --- [http-nio-8090-exec-7] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 21:44:42.704  INFO 6264 --- [http-nio-8090-exec-7] c.v.s.b.demo.controller.UserController   : user authenticated
+2021-03-01 21:44:42.705  INFO 6264 --- [http-nio-8090-exec-7] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 21:44:42.706  INFO 6264 --- [http-nio-8090-exec-7] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 21:44:42.706  INFO 6264 --- [http-nio-8090-exec-7] c.v.spring.boot.demo.security.JwtUtil    : generateToken
+2021-03-01 21:44:42.707  INFO 6264 --- [http-nio-8090-exec-7] c.v.spring.boot.demo.security.JwtUtil    : createToken
+2021-03-01 21:44:44.647  INFO 6264 --- [http-nio-8090-exec-7] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 21:45:24.607  INFO 6264 --- [http-nio-8090-exec-8] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 21:45:24.608  INFO 6264 --- [http-nio-8090-exec-8] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 21:45:24.622  INFO 6264 --- [http-nio-8090-exec-8] com.vaman.spring.boot.demo.model.MyUser  : MyUser default constructor
+2021-03-01 21:45:24.622  INFO 6264 --- [http-nio-8090-exec-8] com.vaman.spring.boot.demo.model.MyUser  : setUsername
+2021-03-01 21:45:24.624  INFO 6264 --- [http-nio-8090-exec-8] com.vaman.spring.boot.demo.model.MyUser  : setPassword
+2021-03-01 21:45:24.627  INFO 6264 --- [http-nio-8090-exec-8] c.v.s.b.demo.controller.UserController   : login
+2021-03-01 21:45:24.627  INFO 6264 --- [http-nio-8090-exec-8] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 21:45:24.628  INFO 6264 --- [http-nio-8090-exec-8] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 21:45:24.630  INFO 6264 --- [http-nio-8090-exec-8] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 21:45:24.631  INFO 6264 --- [http-nio-8090-exec-8] com.vaman.spring.boot.demo.model.MyUser  : getPassword
+2021-03-01 21:45:24.631  INFO 6264 --- [http-nio-8090-exec-8] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 21:45:24.631  INFO 6264 --- [http-nio-8090-exec-8] c.v.s.b.demo.controller.UserController   : user authenticated
+2021-03-01 21:45:24.631  INFO 6264 --- [http-nio-8090-exec-8] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 21:45:24.631  INFO 6264 --- [http-nio-8090-exec-8] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 21:45:24.631  INFO 6264 --- [http-nio-8090-exec-8] c.v.spring.boot.demo.security.JwtUtil    : generateToken
+2021-03-01 21:45:24.632  INFO 6264 --- [http-nio-8090-exec-8] c.v.spring.boot.demo.security.JwtUtil    : createToken
+2021-03-01 21:45:24.647  INFO 6264 --- [http-nio-8090-exec-8] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 21:47:28.529  INFO 6264 --- [http-nio-8090-exec-10] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 21:47:28.530  INFO 6264 --- [http-nio-8090-exec-10] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 21:47:28.533  INFO 6264 --- [http-nio-8090-exec-10] com.vaman.spring.boot.demo.model.MyUser  : MyUser default constructor
+2021-03-01 21:47:28.534  INFO 6264 --- [http-nio-8090-exec-10] com.vaman.spring.boot.demo.model.MyUser  : setUsername
+2021-03-01 21:47:28.534  INFO 6264 --- [http-nio-8090-exec-10] com.vaman.spring.boot.demo.model.MyUser  : setPassword
+2021-03-01 21:47:28.535  INFO 6264 --- [http-nio-8090-exec-10] c.v.s.b.demo.controller.UserController   : login
+2021-03-01 21:47:28.535  INFO 6264 --- [http-nio-8090-exec-10] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 21:47:28.535  INFO 6264 --- [http-nio-8090-exec-10] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 21:47:28.535  INFO 6264 --- [http-nio-8090-exec-10] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 21:47:28.535  INFO 6264 --- [http-nio-8090-exec-10] com.vaman.spring.boot.demo.model.MyUser  : getPassword
+2021-03-01 21:47:28.535  INFO 6264 --- [http-nio-8090-exec-10] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 21:47:28.536  INFO 6264 --- [http-nio-8090-exec-10] c.v.s.b.demo.controller.UserController   : user authenticated
+2021-03-01 21:47:28.536  INFO 6264 --- [http-nio-8090-exec-10] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 21:47:28.536  INFO 6264 --- [http-nio-8090-exec-10] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 21:47:28.536  INFO 6264 --- [http-nio-8090-exec-10] c.v.spring.boot.demo.security.JwtUtil    : generateToken
+2021-03-01 21:47:28.536  INFO 6264 --- [http-nio-8090-exec-10] c.v.spring.boot.demo.security.JwtUtil    : createToken
+2021-03-01 21:47:28.544  INFO 6264 --- [http-nio-8090-exec-10] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 21:48:12.514  INFO 6264 --- [http-nio-8090-exec-1] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 21:48:12.516  INFO 6264 --- [http-nio-8090-exec-1] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 21:48:12.520  INFO 6264 --- [http-nio-8090-exec-1] com.vaman.spring.boot.demo.model.MyUser  : MyUser default constructor
+2021-03-01 21:48:12.520  INFO 6264 --- [http-nio-8090-exec-1] com.vaman.spring.boot.demo.model.MyUser  : setUsername
+2021-03-01 21:48:12.520  INFO 6264 --- [http-nio-8090-exec-1] com.vaman.spring.boot.demo.model.MyUser  : setPassword
+2021-03-01 21:48:12.520  INFO 6264 --- [http-nio-8090-exec-1] c.v.s.b.demo.controller.UserController   : login
+2021-03-01 21:48:12.520  INFO 6264 --- [http-nio-8090-exec-1] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 21:48:12.520  INFO 6264 --- [http-nio-8090-exec-1] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 21:48:12.521  INFO 6264 --- [http-nio-8090-exec-1] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 21:48:12.521  INFO 6264 --- [http-nio-8090-exec-1] com.vaman.spring.boot.demo.model.MyUser  : getPassword
+2021-03-01 21:48:12.521  INFO 6264 --- [http-nio-8090-exec-1] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 21:48:12.521  INFO 6264 --- [http-nio-8090-exec-1] c.v.s.b.demo.controller.UserController   : user authenticated
+2021-03-01 21:48:12.521  INFO 6264 --- [http-nio-8090-exec-1] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 21:48:12.521  INFO 6264 --- [http-nio-8090-exec-1] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 21:48:12.521  INFO 6264 --- [http-nio-8090-exec-1] c.v.spring.boot.demo.security.JwtUtil    : generateToken
+2021-03-01 21:48:12.521  INFO 6264 --- [http-nio-8090-exec-1] c.v.spring.boot.demo.security.JwtUtil    : createToken
+2021-03-01 21:48:12.529  INFO 6264 --- [http-nio-8090-exec-1] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 21:48:25.849  INFO 6264 --- [http-nio-8090-exec-3] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 21:48:25.850  INFO 6264 --- [http-nio-8090-exec-3] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 21:48:25.858  INFO 6264 --- [http-nio-8090-exec-3] com.vaman.spring.boot.demo.model.MyUser  : MyUser default constructor
+2021-03-01 21:48:25.862  INFO 6264 --- [http-nio-8090-exec-3] com.vaman.spring.boot.demo.model.MyUser  : setUsername
+2021-03-01 21:48:25.863  INFO 6264 --- [http-nio-8090-exec-3] com.vaman.spring.boot.demo.model.MyUser  : setPassword
+2021-03-01 21:48:25.863  INFO 6264 --- [http-nio-8090-exec-3] c.v.s.b.demo.controller.UserController   : login
+2021-03-01 21:48:25.863  INFO 6264 --- [http-nio-8090-exec-3] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 21:48:25.863  INFO 6264 --- [http-nio-8090-exec-3] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 21:48:25.863  INFO 6264 --- [http-nio-8090-exec-3] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 21:48:25.863  INFO 6264 --- [http-nio-8090-exec-3] com.vaman.spring.boot.demo.model.MyUser  : getPassword
+2021-03-01 21:48:25.863  INFO 6264 --- [http-nio-8090-exec-3] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 21:48:25.863  INFO 6264 --- [http-nio-8090-exec-3] c.v.s.b.demo.controller.UserController   : user authenticated
+2021-03-01 21:48:25.863  INFO 6264 --- [http-nio-8090-exec-3] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 21:48:25.863  INFO 6264 --- [http-nio-8090-exec-3] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 21:48:25.863  INFO 6264 --- [http-nio-8090-exec-3] c.v.spring.boot.demo.security.JwtUtil    : generateToken
+2021-03-01 21:48:25.863  INFO 6264 --- [http-nio-8090-exec-3] c.v.spring.boot.demo.security.JwtUtil    : createToken
+2021-03-01 21:48:25.869  INFO 6264 --- [http-nio-8090-exec-3] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 21:49:17.554  INFO 6264 --- [http-nio-8090-exec-6] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 21:49:17.555  INFO 6264 --- [http-nio-8090-exec-6] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 21:49:17.559  INFO 6264 --- [http-nio-8090-exec-6] com.vaman.spring.boot.demo.model.MyUser  : MyUser default constructor
+2021-03-01 21:49:17.559  INFO 6264 --- [http-nio-8090-exec-6] com.vaman.spring.boot.demo.model.MyUser  : setUsername
+2021-03-01 21:49:17.559  INFO 6264 --- [http-nio-8090-exec-6] com.vaman.spring.boot.demo.model.MyUser  : setPassword
+2021-03-01 21:49:17.559  INFO 6264 --- [http-nio-8090-exec-6] c.v.s.b.demo.controller.UserController   : login
+2021-03-01 21:49:17.559  INFO 6264 --- [http-nio-8090-exec-6] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 21:49:17.559  INFO 6264 --- [http-nio-8090-exec-6] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 21:49:17.560  INFO 6264 --- [http-nio-8090-exec-6] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 21:49:17.560  INFO 6264 --- [http-nio-8090-exec-6] com.vaman.spring.boot.demo.model.MyUser  : getPassword
+2021-03-01 21:49:17.560  INFO 6264 --- [http-nio-8090-exec-6] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 21:49:17.560  INFO 6264 --- [http-nio-8090-exec-6] c.v.s.b.demo.controller.UserController   : user authenticated
+2021-03-01 21:49:17.560  INFO 6264 --- [http-nio-8090-exec-6] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 21:49:17.560  INFO 6264 --- [http-nio-8090-exec-6] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 21:49:17.560  INFO 6264 --- [http-nio-8090-exec-6] c.v.spring.boot.demo.security.JwtUtil    : generateToken
+2021-03-01 21:49:17.560  INFO 6264 --- [http-nio-8090-exec-6] c.v.spring.boot.demo.security.JwtUtil    : createToken
+2021-03-01 21:49:17.567  INFO 6264 --- [http-nio-8090-exec-6] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 21:49:37.427  INFO 6264 --- [http-nio-8090-exec-8] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 21:49:37.428  INFO 6264 --- [http-nio-8090-exec-8] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 21:49:37.434  INFO 6264 --- [http-nio-8090-exec-8] com.vaman.spring.boot.demo.model.MyUser  : MyUser default constructor
+2021-03-01 21:49:37.434  INFO 6264 --- [http-nio-8090-exec-8] com.vaman.spring.boot.demo.model.MyUser  : setUsername
+2021-03-01 21:49:37.434  INFO 6264 --- [http-nio-8090-exec-8] com.vaman.spring.boot.demo.model.MyUser  : setPassword
+2021-03-01 21:49:37.435  INFO 6264 --- [http-nio-8090-exec-8] c.v.s.b.demo.controller.UserController   : login
+2021-03-01 21:49:37.436  INFO 6264 --- [http-nio-8090-exec-8] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 21:49:37.438  INFO 6264 --- [http-nio-8090-exec-8] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 21:49:37.438  INFO 6264 --- [http-nio-8090-exec-8] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 21:49:37.438  INFO 6264 --- [http-nio-8090-exec-8] com.vaman.spring.boot.demo.model.MyUser  : getPassword
+2021-03-01 21:49:37.438  INFO 6264 --- [http-nio-8090-exec-8] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 21:49:37.438  INFO 6264 --- [http-nio-8090-exec-8] c.v.s.b.demo.controller.UserController   : user authenticated
+2021-03-01 21:49:37.438  INFO 6264 --- [http-nio-8090-exec-8] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 21:49:37.438  INFO 6264 --- [http-nio-8090-exec-8] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 21:49:37.438  INFO 6264 --- [http-nio-8090-exec-8] c.v.spring.boot.demo.security.JwtUtil    : generateToken
+2021-03-01 21:49:37.439  INFO 6264 --- [http-nio-8090-exec-8] c.v.spring.boot.demo.security.JwtUtil    : createToken
+2021-03-01 21:49:37.450  INFO 6264 --- [http-nio-8090-exec-8] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 21:50:33.554  INFO 6264 --- [http-nio-8090-exec-10] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 21:50:33.558  INFO 6264 --- [http-nio-8090-exec-10] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 21:50:33.562  INFO 6264 --- [http-nio-8090-exec-10] com.vaman.spring.boot.demo.model.MyUser  : MyUser default constructor
+2021-03-01 21:50:33.565  INFO 6264 --- [http-nio-8090-exec-10] com.vaman.spring.boot.demo.model.MyUser  : setUsername
+2021-03-01 21:50:33.566  INFO 6264 --- [http-nio-8090-exec-10] com.vaman.spring.boot.demo.model.MyUser  : setPassword
+2021-03-01 21:50:33.566  INFO 6264 --- [http-nio-8090-exec-10] c.v.s.b.demo.controller.UserController   : login
+2021-03-01 21:50:33.566  INFO 6264 --- [http-nio-8090-exec-10] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 21:50:33.567  INFO 6264 --- [http-nio-8090-exec-10] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 21:50:33.567  INFO 6264 --- [http-nio-8090-exec-10] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 21:50:33.567  INFO 6264 --- [http-nio-8090-exec-10] com.vaman.spring.boot.demo.model.MyUser  : getPassword
+2021-03-01 21:50:33.567  INFO 6264 --- [http-nio-8090-exec-10] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 21:50:33.568  INFO 6264 --- [http-nio-8090-exec-10] c.v.s.b.demo.controller.UserController   : user authenticated
+2021-03-01 21:50:33.569  INFO 6264 --- [http-nio-8090-exec-10] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 21:50:33.570  INFO 6264 --- [http-nio-8090-exec-10] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 21:50:33.570  INFO 6264 --- [http-nio-8090-exec-10] c.v.spring.boot.demo.security.JwtUtil    : generateToken
+2021-03-01 21:50:33.570  INFO 6264 --- [http-nio-8090-exec-10] c.v.spring.boot.demo.security.JwtUtil    : createToken
+2021-03-01 21:50:33.579  INFO 6264 --- [http-nio-8090-exec-10] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 21:51:06.653  INFO 6264 --- [http-nio-8090-exec-1] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 21:51:06.654  INFO 6264 --- [http-nio-8090-exec-1] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 21:51:06.657  INFO 6264 --- [http-nio-8090-exec-1] com.vaman.spring.boot.demo.model.MyUser  : MyUser default constructor
+2021-03-01 21:51:06.657  INFO 6264 --- [http-nio-8090-exec-1] com.vaman.spring.boot.demo.model.MyUser  : setUsername
+2021-03-01 21:51:06.657  INFO 6264 --- [http-nio-8090-exec-1] com.vaman.spring.boot.demo.model.MyUser  : setPassword
+2021-03-01 21:51:06.659  INFO 6264 --- [http-nio-8090-exec-1] c.v.s.b.demo.controller.UserController   : login
+2021-03-01 21:51:06.660  INFO 6264 --- [http-nio-8090-exec-1] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 21:51:06.661  INFO 6264 --- [http-nio-8090-exec-1] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 21:51:06.661  INFO 6264 --- [http-nio-8090-exec-1] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 21:51:06.661  INFO 6264 --- [http-nio-8090-exec-1] com.vaman.spring.boot.demo.model.MyUser  : getPassword
+2021-03-01 21:51:06.661  INFO 6264 --- [http-nio-8090-exec-1] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 21:51:06.661  INFO 6264 --- [http-nio-8090-exec-1] c.v.s.b.demo.controller.UserController   : user authenticated
+2021-03-01 21:51:06.661  INFO 6264 --- [http-nio-8090-exec-1] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 21:51:06.662  INFO 6264 --- [http-nio-8090-exec-1] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 21:51:06.668  INFO 6264 --- [http-nio-8090-exec-1] c.v.spring.boot.demo.security.JwtUtil    : generateToken
+2021-03-01 21:51:06.668  INFO 6264 --- [http-nio-8090-exec-1] c.v.spring.boot.demo.security.JwtUtil    : createToken
+2021-03-01 21:51:06.673  INFO 6264 --- [http-nio-8090-exec-1] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 21:51:06.848  INFO 6264 --- [http-nio-8090-exec-4] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 21:51:06.848  INFO 6264 --- [http-nio-8090-exec-4] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 21:51:06.850  INFO 6264 --- [http-nio-8090-exec-4] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 21:51:46.692  INFO 6264 --- [http-nio-8090-exec-5] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 21:51:46.694  INFO 6264 --- [http-nio-8090-exec-5] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 21:51:46.699  INFO 6264 --- [http-nio-8090-exec-5] com.vaman.spring.boot.demo.model.MyUser  : MyUser default constructor
+2021-03-01 21:51:46.699  INFO 6264 --- [http-nio-8090-exec-5] com.vaman.spring.boot.demo.model.MyUser  : setUsername
+2021-03-01 21:51:46.699  INFO 6264 --- [http-nio-8090-exec-5] com.vaman.spring.boot.demo.model.MyUser  : setPassword
+2021-03-01 21:51:46.700  INFO 6264 --- [http-nio-8090-exec-5] c.v.s.b.demo.controller.UserController   : login
+2021-03-01 21:51:46.700  INFO 6264 --- [http-nio-8090-exec-5] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 21:51:46.700  INFO 6264 --- [http-nio-8090-exec-5] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 21:51:46.700  INFO 6264 --- [http-nio-8090-exec-5] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 21:51:46.700  INFO 6264 --- [http-nio-8090-exec-5] com.vaman.spring.boot.demo.model.MyUser  : getPassword
+2021-03-01 21:51:46.700  INFO 6264 --- [http-nio-8090-exec-5] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 21:51:46.700  INFO 6264 --- [http-nio-8090-exec-5] c.v.s.b.demo.controller.UserController   : user authenticated
+2021-03-01 21:51:46.700  INFO 6264 --- [http-nio-8090-exec-5] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 21:51:46.700  INFO 6264 --- [http-nio-8090-exec-5] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 21:51:46.701  INFO 6264 --- [http-nio-8090-exec-5] c.v.spring.boot.demo.security.JwtUtil    : generateToken
+2021-03-01 21:51:46.703  INFO 6264 --- [http-nio-8090-exec-5] c.v.spring.boot.demo.security.JwtUtil    : createToken
+2021-03-01 21:51:46.712  INFO 6264 --- [http-nio-8090-exec-5] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 21:51:46.805  INFO 6264 --- [http-nio-8090-exec-6] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 21:51:46.806  INFO 6264 --- [http-nio-8090-exec-6] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 21:51:46.806  INFO 6264 --- [http-nio-8090-exec-6] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 21:51:56.404  INFO 6264 --- [http-nio-8090-exec-8] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 21:51:56.405  INFO 6264 --- [http-nio-8090-exec-8] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 21:51:56.411  INFO 6264 --- [http-nio-8090-exec-8] com.vaman.spring.boot.demo.model.MyUser  : MyUser default constructor
+2021-03-01 21:51:56.413  INFO 6264 --- [http-nio-8090-exec-8] com.vaman.spring.boot.demo.model.MyUser  : setUsername
+2021-03-01 21:51:56.413  INFO 6264 --- [http-nio-8090-exec-8] com.vaman.spring.boot.demo.model.MyUser  : setPassword
+2021-03-01 21:51:56.414  INFO 6264 --- [http-nio-8090-exec-8] c.v.s.b.demo.controller.UserController   : login
+2021-03-01 21:51:56.414  INFO 6264 --- [http-nio-8090-exec-8] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 21:51:56.414  INFO 6264 --- [http-nio-8090-exec-8] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 21:51:56.414  INFO 6264 --- [http-nio-8090-exec-8] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 21:51:56.414  INFO 6264 --- [http-nio-8090-exec-8] com.vaman.spring.boot.demo.model.MyUser  : getPassword
+2021-03-01 21:51:56.414  INFO 6264 --- [http-nio-8090-exec-8] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 21:51:56.414  INFO 6264 --- [http-nio-8090-exec-8] c.v.s.b.demo.controller.UserController   : user authenticated
+2021-03-01 21:51:56.414  INFO 6264 --- [http-nio-8090-exec-8] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 21:51:56.415  INFO 6264 --- [http-nio-8090-exec-8] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 21:51:56.418  INFO 6264 --- [http-nio-8090-exec-8] c.v.spring.boot.demo.security.JwtUtil    : generateToken
+2021-03-01 21:51:56.418  INFO 6264 --- [http-nio-8090-exec-8] c.v.spring.boot.demo.security.JwtUtil    : createToken
+2021-03-01 21:51:56.423  INFO 6264 --- [http-nio-8090-exec-8] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 21:51:56.489  INFO 6264 --- [http-nio-8090-exec-9] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 21:51:56.489  INFO 6264 --- [http-nio-8090-exec-9] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 21:51:56.490  INFO 6264 --- [http-nio-8090-exec-9] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 21:52:22.636  INFO 6264 --- [http-nio-8090-exec-2] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 21:52:22.641  INFO 6264 --- [http-nio-8090-exec-2] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 21:52:22.644  INFO 6264 --- [http-nio-8090-exec-2] com.vaman.spring.boot.demo.model.MyUser  : MyUser default constructor
+2021-03-01 21:52:22.644  INFO 6264 --- [http-nio-8090-exec-2] com.vaman.spring.boot.demo.model.MyUser  : setUsername
+2021-03-01 21:52:22.644  INFO 6264 --- [http-nio-8090-exec-2] com.vaman.spring.boot.demo.model.MyUser  : setPassword
+2021-03-01 21:52:22.644  INFO 6264 --- [http-nio-8090-exec-2] c.v.s.b.demo.controller.UserController   : login
+2021-03-01 21:52:22.645  INFO 6264 --- [http-nio-8090-exec-2] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 21:52:22.645  INFO 6264 --- [http-nio-8090-exec-2] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 21:52:22.645  INFO 6264 --- [http-nio-8090-exec-2] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 21:52:22.645  INFO 6264 --- [http-nio-8090-exec-2] com.vaman.spring.boot.demo.model.MyUser  : getPassword
+2021-03-01 21:52:22.645  INFO 6264 --- [http-nio-8090-exec-2] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 21:52:22.646  INFO 6264 --- [http-nio-8090-exec-2] c.v.s.b.demo.controller.UserController   : user authenticated
+2021-03-01 21:52:22.646  INFO 6264 --- [http-nio-8090-exec-2] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 21:52:22.646  INFO 6264 --- [http-nio-8090-exec-2] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 21:52:22.646  INFO 6264 --- [http-nio-8090-exec-2] c.v.spring.boot.demo.security.JwtUtil    : generateToken
+2021-03-01 21:52:22.646  INFO 6264 --- [http-nio-8090-exec-2] c.v.spring.boot.demo.security.JwtUtil    : createToken
+2021-03-01 21:52:22.652  INFO 6264 --- [http-nio-8090-exec-2] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 21:52:22.849  INFO 6264 --- [http-nio-8090-exec-1] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 21:52:22.849  INFO 6264 --- [http-nio-8090-exec-1] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 21:52:22.851  INFO 6264 --- [http-nio-8090-exec-1] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 21:53:40.859  INFO 6264 --- [Thread-8] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-01 21:53:40.880  INFO 6264 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-01 21:53:41.944  WARN 6264 --- [Thread-8] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': java.sql.SQLException: Directory E:/ness/hr cannot be removed.
+2021-03-01 21:53:41.946  INFO 6264 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-03-01 21:53:41.951  INFO 6264 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-03-01 21:53:42.174  INFO 6264 --- [restartedMain] com.vaman.spring.boot.demo.App           : Start
+2021-03-01 21:53:42.252  INFO 6264 --- [restartedMain] com.vaman.spring.boot.demo.App           : Starting App using Java 1.8.0_281 on DESKTOP-KFP7J4E with PID 6264 (C:\VamanCode\eclipse-workspace-7\spring-boot-project\target\classes started by Vaman in C:\VamanCode\eclipse-workspace-7\spring-boot-project)
+2021-03-01 21:53:42.253  INFO 6264 --- [restartedMain] com.vaman.spring.boot.demo.App           : No active profile set, falling back to default profiles: default
+2021-03-01 21:53:42.774  INFO 6264 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-03-01 21:53:42.814  INFO 6264 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 2 JPA repository interfaces.
+2021-03-01 21:53:43.132  INFO 6264 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2021-03-01 21:53:43.134  INFO 6264 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-01 21:53:43.135  INFO 6264 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-03-01 21:53:43.136  INFO 6264 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2021-03-01 21:53:43.137  INFO 6264 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-03-01 21:53:43.138  INFO 6264 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-03-01 21:53:43.139  INFO 6264 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2021-03-01 21:53:43.167  INFO 6264 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-01 21:53:43.168  INFO 6264 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 908 ms
+2021-03-01 21:53:43.259  INFO 6264 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-01 21:53:43.276  INFO 6264 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-01 21:53:43.292  INFO 6264 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2021-03-01 21:53:43.292  WARN 6264 --- [task-1] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2021-03-01 21:53:43.351  WARN 6264 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-01 21:53:43.382  INFO 6264 --- [restartedMain] c.v.spring.boot.demo.security.JwtUtil    : configureGlobal
+2021-03-01 21:53:43.405  INFO 6264 --- [restartedMain] c.v.spring.boot.demo.security.JwtUtil    : authenticationManagerBean
+2021-03-01 21:53:43.428  INFO 6264 --- [restartedMain] c.v.spring.boot.demo.security.JwtUtil    : configure
+2021-03-01 21:53:43.444  INFO 6264 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@a01fc3b, org.springframework.security.web.context.SecurityContextPersistenceFilter@6fdec70, org.springframework.security.web.header.HeaderWriterFilter@6e561de1, org.springframework.security.web.authentication.logout.LogoutFilter@7165e0d2, com.vaman.spring.boot.demo.security.UserRequestFilter@7b91819a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6e3339b9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3054888b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@40ffef70, org.springframework.security.web.session.SessionManagementFilter@1067112c, org.springframework.security.web.access.ExceptionTranslationFilter@6fdcb75, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@76f3b2eb]
+2021-03-01 21:53:43.448  INFO 6264 --- [restartedMain] c.v.spring.boot.demo.security.JwtUtil    : passwordEncoder
+2021-03-01 21:53:43.664  INFO 6264 --- [task-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-2 - Driver does not support get/set network timeout for connections. (Feature not implemented: No details.)
+2021-03-01 21:53:43.665  INFO 6264 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2021-03-01 21:53:43.666  INFO 6264 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.DerbyTenSevenDialect
+2021-03-01 21:53:43.816  INFO 6264 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-03-01 21:53:43.884  INFO 6264 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2021-03-01 21:53:43.890  INFO 6264 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2021-03-01 21:53:43.960  INFO 6264 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-01 21:53:43.962  INFO 6264 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-01 21:53:44.066  INFO 6264 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2021-03-01 21:53:44.074  INFO 6264 --- [restartedMain] com.vaman.spring.boot.demo.App           : Started App in 1.886 seconds (JVM running for 5647.567)
+2021-03-01 21:53:44.079  INFO 6264 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-03-01 21:53:44.080  INFO 6264 --- [restartedMain] com.vaman.spring.boot.demo.App           : End
+2021-03-01 21:53:53.867  INFO 6264 --- [http-nio-8090-exec-10] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-01 21:53:53.867  INFO 6264 --- [http-nio-8090-exec-10] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-01 21:53:53.870  INFO 6264 --- [http-nio-8090-exec-10] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2021-03-01 21:53:53.871  INFO 6264 --- [http-nio-8090-exec-10] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 21:53:53.876  INFO 6264 --- [http-nio-8090-exec-10] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 21:53:53.883  INFO 6264 --- [http-nio-8090-exec-10] com.vaman.spring.boot.demo.model.MyUser  : MyUser default constructor
+2021-03-01 21:53:53.884  INFO 6264 --- [http-nio-8090-exec-10] com.vaman.spring.boot.demo.model.MyUser  : setUsername
+2021-03-01 21:53:53.884  INFO 6264 --- [http-nio-8090-exec-10] com.vaman.spring.boot.demo.model.MyUser  : setPassword
+2021-03-01 21:53:53.885  INFO 6264 --- [http-nio-8090-exec-10] c.v.s.b.demo.controller.UserController   : login
+2021-03-01 21:53:53.885  INFO 6264 --- [http-nio-8090-exec-10] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 21:53:53.885  INFO 6264 --- [http-nio-8090-exec-10] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 21:53:53.886  INFO 6264 --- [http-nio-8090-exec-10] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 21:53:53.888  INFO 6264 --- [http-nio-8090-exec-10] com.vaman.spring.boot.demo.model.MyUser  : getPassword
+2021-03-01 21:53:53.888  INFO 6264 --- [http-nio-8090-exec-10] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 21:53:53.888  INFO 6264 --- [http-nio-8090-exec-10] c.v.s.b.demo.controller.UserController   : user authenticated
+2021-03-01 21:53:53.888  INFO 6264 --- [http-nio-8090-exec-10] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 21:53:53.888  INFO 6264 --- [http-nio-8090-exec-10] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 21:53:53.888  INFO 6264 --- [http-nio-8090-exec-10] c.v.spring.boot.demo.security.JwtUtil    : generateToken
+2021-03-01 21:53:53.889  INFO 6264 --- [http-nio-8090-exec-10] c.v.spring.boot.demo.security.JwtUtil    : createToken
+2021-03-01 21:53:53.899  INFO 6264 --- [http-nio-8090-exec-10] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 21:53:53.972  INFO 6264 --- [http-nio-8090-exec-9] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 21:53:53.978  INFO 6264 --- [http-nio-8090-exec-9] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 21:53:53.992  INFO 6264 --- [http-nio-8090-exec-9] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 21:54:27.927  INFO 6264 --- [Thread-50] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-01 21:54:27.929  INFO 6264 --- [Thread-50] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-01 21:54:28.929  WARN 6264 --- [Thread-50] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': java.sql.SQLException: Directory E:/ness/hr cannot be removed.
+2021-03-01 21:54:28.930  INFO 6264 --- [Thread-50] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2021-03-01 21:54:28.934  INFO 6264 --- [Thread-50] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2021-03-01 21:54:29.163  INFO 6264 --- [restartedMain] com.vaman.spring.boot.demo.App           : Start
+2021-03-01 21:54:29.226  INFO 6264 --- [restartedMain] com.vaman.spring.boot.demo.App           : Starting App using Java 1.8.0_281 on DESKTOP-KFP7J4E with PID 6264 (C:\VamanCode\eclipse-workspace-7\spring-boot-project\target\classes started by Vaman in C:\VamanCode\eclipse-workspace-7\spring-boot-project)
+2021-03-01 21:54:29.227  INFO 6264 --- [restartedMain] com.vaman.spring.boot.demo.App           : No active profile set, falling back to default profiles: default
+2021-03-01 21:54:29.647  INFO 6264 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-03-01 21:54:29.684  INFO 6264 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36 ms. Found 2 JPA repository interfaces.
+2021-03-01 21:54:29.965  INFO 6264 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2021-03-01 21:54:29.967  INFO 6264 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-01 21:54:29.967  INFO 6264 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-03-01 21:54:29.968  INFO 6264 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2021-03-01 21:54:29.968  INFO 6264 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-03-01 21:54:29.968  INFO 6264 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-03-01 21:54:29.969  INFO 6264 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2021-03-01 21:54:29.999  INFO 6264 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-01 21:54:29.999  INFO 6264 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 768 ms
+2021-03-01 21:54:30.095  INFO 6264 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-01 21:54:30.109  INFO 6264 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-01 21:54:30.121  INFO 6264 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2021-03-01 21:54:30.126  WARN 6264 --- [task-1] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2021-03-01 21:54:30.182  WARN 6264 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-01 21:54:30.203  INFO 6264 --- [restartedMain] c.v.spring.boot.demo.security.JwtUtil    : configureGlobal
+2021-03-01 21:54:30.219  INFO 6264 --- [restartedMain] c.v.spring.boot.demo.security.JwtUtil    : authenticationManagerBean
+2021-03-01 21:54:30.246  INFO 6264 --- [restartedMain] c.v.spring.boot.demo.security.JwtUtil    : configure
+2021-03-01 21:54:30.263  INFO 6264 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1e8ec6fc, org.springframework.security.web.context.SecurityContextPersistenceFilter@584b89cc, org.springframework.security.web.header.HeaderWriterFilter@6bf2f4ae, org.springframework.security.web.authentication.logout.LogoutFilter@4bcc2ba3, com.vaman.spring.boot.demo.security.UserRequestFilter@6913fd8d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@61f989ed, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1d5246f8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@176f6235, org.springframework.security.web.session.SessionManagementFilter@223e1e6b, org.springframework.security.web.access.ExceptionTranslationFilter@6b0a4028, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4d461048]
+2021-03-01 21:54:30.267  INFO 6264 --- [restartedMain] c.v.spring.boot.demo.security.JwtUtil    : passwordEncoder
+2021-03-01 21:54:30.405  INFO 6264 --- [task-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-3 - Driver does not support get/set network timeout for connections. (Feature not implemented: No details.)
+2021-03-01 21:54:30.407  INFO 6264 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2021-03-01 21:54:30.407  INFO 6264 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.DerbyTenSevenDialect
+2021-03-01 21:54:30.553  INFO 6264 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-03-01 21:54:30.594  INFO 6264 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2021-03-01 21:54:30.595  INFO 6264 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2021-03-01 21:54:30.599  INFO 6264 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-01 21:54:30.600  INFO 6264 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-01 21:54:30.715  INFO 6264 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2021-03-01 21:54:30.721  INFO 6264 --- [restartedMain] com.vaman.spring.boot.demo.App           : Started App in 1.548 seconds (JVM running for 5694.215)
+2021-03-01 21:54:30.725  INFO 6264 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-03-01 21:54:30.725  INFO 6264 --- [restartedMain] com.vaman.spring.boot.demo.App           : End
+2021-03-01 21:54:37.482  INFO 6264 --- [http-nio-8090-exec-10] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-01 21:54:37.482  INFO 6264 --- [http-nio-8090-exec-10] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-01 21:54:37.484  INFO 6264 --- [http-nio-8090-exec-10] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-03-01 21:54:37.485  INFO 6264 --- [http-nio-8090-exec-10] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 21:54:37.486  INFO 6264 --- [http-nio-8090-exec-10] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 21:54:37.492  INFO 6264 --- [http-nio-8090-exec-10] com.vaman.spring.boot.demo.model.MyUser  : MyUser default constructor
+2021-03-01 21:54:37.492  INFO 6264 --- [http-nio-8090-exec-10] com.vaman.spring.boot.demo.model.MyUser  : setUsername
+2021-03-01 21:54:37.492  INFO 6264 --- [http-nio-8090-exec-10] com.vaman.spring.boot.demo.model.MyUser  : setPassword
+2021-03-01 21:54:37.493  INFO 6264 --- [http-nio-8090-exec-10] c.v.s.b.demo.controller.UserController   : login
+2021-03-01 21:54:37.493  INFO 6264 --- [http-nio-8090-exec-10] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 21:54:37.493  INFO 6264 --- [http-nio-8090-exec-10] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 21:54:37.493  INFO 6264 --- [http-nio-8090-exec-10] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 21:54:37.494  INFO 6264 --- [http-nio-8090-exec-10] com.vaman.spring.boot.demo.model.MyUser  : getPassword
+2021-03-01 21:54:37.495  INFO 6264 --- [http-nio-8090-exec-10] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 21:54:37.495  INFO 6264 --- [http-nio-8090-exec-10] c.v.s.b.demo.controller.UserController   : user authenticated
+2021-03-01 21:54:37.495  INFO 6264 --- [http-nio-8090-exec-10] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 21:54:37.495  INFO 6264 --- [http-nio-8090-exec-10] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 21:54:37.495  INFO 6264 --- [http-nio-8090-exec-10] c.v.spring.boot.demo.security.JwtUtil    : generateToken
+2021-03-01 21:54:37.496  INFO 6264 --- [http-nio-8090-exec-10] c.v.spring.boot.demo.security.JwtUtil    : createToken
+2021-03-01 21:54:37.507  INFO 6264 --- [http-nio-8090-exec-10] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 21:54:37.623  INFO 6264 --- [http-nio-8090-exec-9] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 21:54:37.624  INFO 6264 --- [http-nio-8090-exec-9] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 21:54:37.630  INFO 6264 --- [http-nio-8090-exec-9] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 21:54:37.690  INFO 6264 --- [http-nio-8090-exec-8] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 21:54:37.690  INFO 6264 --- [http-nio-8090-exec-8] c.v.s.b.demo.security.UserRequestFilter  : authorizationHeader is null
+2021-03-01 21:54:37.690  INFO 6264 --- [http-nio-8090-exec-8] c.v.spring.boot.demo.security.JwtUtil    : extractUsername
+2021-03-01 21:54:37.691  INFO 6264 --- [http-nio-8090-exec-8] c.v.spring.boot.demo.security.JwtUtil    : extractClaim
+2021-03-01 21:54:37.691  INFO 6264 --- [http-nio-8090-exec-8] c.v.spring.boot.demo.security.JwtUtil    : extractAllClaims
+2021-03-01 21:54:37.821  INFO 6264 --- [http-nio-8090-exec-8] c.v.s.b.demo.security.UserRequestFilter  : username is null
+2021-03-01 21:54:37.822  INFO 6264 --- [http-nio-8090-exec-8] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 21:54:37.822  INFO 6264 --- [http-nio-8090-exec-8] c.v.spring.boot.demo.security.JwtUtil    : validateToken
+2021-03-01 21:54:37.822  INFO 6264 --- [http-nio-8090-exec-8] c.v.spring.boot.demo.security.JwtUtil    : extractUsername
+2021-03-01 21:54:37.822  INFO 6264 --- [http-nio-8090-exec-8] c.v.spring.boot.demo.security.JwtUtil    : extractClaim
+2021-03-01 21:54:37.822  INFO 6264 --- [http-nio-8090-exec-8] c.v.spring.boot.demo.security.JwtUtil    : extractAllClaims
+2021-03-01 21:54:37.825  INFO 6264 --- [http-nio-8090-exec-8] c.v.spring.boot.demo.security.JwtUtil    : isTokenExpired
+2021-03-01 21:54:37.825  INFO 6264 --- [http-nio-8090-exec-8] c.v.spring.boot.demo.security.JwtUtil    : extractExpiration
+2021-03-01 21:54:37.825  INFO 6264 --- [http-nio-8090-exec-8] c.v.spring.boot.demo.security.JwtUtil    : extractClaim
+2021-03-01 21:54:37.826  INFO 6264 --- [http-nio-8090-exec-8] c.v.spring.boot.demo.security.JwtUtil    : extractAllClaims
+2021-03-01 21:54:37.829  INFO 6264 --- [http-nio-8090-exec-8] c.v.s.b.demo.security.UserRequestFilter  : userDetails extracted
+2021-03-01 21:54:37.850  INFO 6264 --- [http-nio-8090-exec-8] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 21:54:37.884  INFO 6264 --- [http-nio-8090-exec-8] c.v.s.b.d.controller.EmployeeController  : baseUrl controller
+2021-03-01 21:54:37.892  INFO 6264 --- [http-nio-8090-exec-8] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 21:54:51.238  INFO 6264 --- [http-nio-8090-exec-6] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 21:54:51.239  INFO 6264 --- [http-nio-8090-exec-6] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 21:54:51.246  INFO 6264 --- [http-nio-8090-exec-6] com.vaman.spring.boot.demo.model.MyUser  : MyUser default constructor
+2021-03-01 21:54:51.247  INFO 6264 --- [http-nio-8090-exec-6] com.vaman.spring.boot.demo.model.MyUser  : setUsername
+2021-03-01 21:54:51.247  INFO 6264 --- [http-nio-8090-exec-6] com.vaman.spring.boot.demo.model.MyUser  : setPassword
+2021-03-01 21:54:51.247  INFO 6264 --- [http-nio-8090-exec-6] c.v.s.b.demo.controller.UserController   : login
+2021-03-01 21:54:51.247  INFO 6264 --- [http-nio-8090-exec-6] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 21:54:51.247  INFO 6264 --- [http-nio-8090-exec-6] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 21:54:51.247  INFO 6264 --- [http-nio-8090-exec-6] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 21:54:51.247  INFO 6264 --- [http-nio-8090-exec-6] com.vaman.spring.boot.demo.model.MyUser  : getPassword
+2021-03-01 21:54:51.247  INFO 6264 --- [http-nio-8090-exec-6] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 21:54:51.248  INFO 6264 --- [http-nio-8090-exec-6] c.v.s.b.demo.controller.UserController   : user authenticated
+2021-03-01 21:54:51.248  INFO 6264 --- [http-nio-8090-exec-6] com.vaman.spring.boot.demo.model.MyUser  : getUsername
+2021-03-01 21:54:51.248  INFO 6264 --- [http-nio-8090-exec-6] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 21:54:51.248  INFO 6264 --- [http-nio-8090-exec-6] c.v.spring.boot.demo.security.JwtUtil    : generateToken
+2021-03-01 21:54:51.248  INFO 6264 --- [http-nio-8090-exec-6] c.v.spring.boot.demo.security.JwtUtil    : createToken
+2021-03-01 21:54:51.256  INFO 6264 --- [http-nio-8090-exec-6] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 21:54:51.387  INFO 6264 --- [http-nio-8090-exec-5] c.v.s.b.demo.security.UserRequestFilter  : doFilterInternal
+2021-03-01 21:54:51.388  INFO 6264 --- [http-nio-8090-exec-5] c.v.s.b.demo.security.UserRequestFilter  : authorizationHeader is null
+2021-03-01 21:54:51.388  INFO 6264 --- [http-nio-8090-exec-5] c.v.spring.boot.demo.security.JwtUtil    : extractUsername
+2021-03-01 21:54:51.388  INFO 6264 --- [http-nio-8090-exec-5] c.v.spring.boot.demo.security.JwtUtil    : extractClaim
+2021-03-01 21:54:51.388  INFO 6264 --- [http-nio-8090-exec-5] c.v.spring.boot.demo.security.JwtUtil    : extractAllClaims
+2021-03-01 21:54:51.394  INFO 6264 --- [http-nio-8090-exec-5] c.v.s.b.demo.security.UserRequestFilter  : username is null
+2021-03-01 21:54:51.395  INFO 6264 --- [http-nio-8090-exec-5] com.vaman.spring.boot.demo.App           : loadUserByUsername
+2021-03-01 21:54:51.395  INFO 6264 --- [http-nio-8090-exec-5] c.v.spring.boot.demo.security.JwtUtil    : validateToken
+2021-03-01 21:54:51.395  INFO 6264 --- [http-nio-8090-exec-5] c.v.spring.boot.demo.security.JwtUtil    : extractUsername
+2021-03-01 21:54:51.395  INFO 6264 --- [http-nio-8090-exec-5] c.v.spring.boot.demo.security.JwtUtil    : extractClaim
+2021-03-01 21:54:51.395  INFO 6264 --- [http-nio-8090-exec-5] c.v.spring.boot.demo.security.JwtUtil    : extractAllClaims
+2021-03-01 21:54:51.397  INFO 6264 --- [http-nio-8090-exec-5] c.v.spring.boot.demo.security.JwtUtil    : isTokenExpired
+2021-03-01 21:54:51.397  INFO 6264 --- [http-nio-8090-exec-5] c.v.spring.boot.demo.security.JwtUtil    : extractExpiration
+2021-03-01 21:54:51.397  INFO 6264 --- [http-nio-8090-exec-5] c.v.spring.boot.demo.security.JwtUtil    : extractClaim
+2021-03-01 21:54:51.397  INFO 6264 --- [http-nio-8090-exec-5] c.v.spring.boot.demo.security.JwtUtil    : extractAllClaims
+2021-03-01 21:54:51.399  INFO 6264 --- [http-nio-8090-exec-5] c.v.s.b.demo.security.UserRequestFilter  : userDetails extracted
+2021-03-01 21:54:51.399  INFO 6264 --- [http-nio-8090-exec-5] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
+2021-03-01 21:54:51.400  INFO 6264 --- [http-nio-8090-exec-5] c.v.s.b.d.controller.EmployeeController  : baseUrl controller
+2021-03-01 21:54:51.412  INFO 6264 --- [http-nio-8090-exec-5] c.v.s.b.demo.security.UserRequestFilter  : chain

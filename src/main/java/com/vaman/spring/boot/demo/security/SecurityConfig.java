@@ -4,6 +4,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
+import org.springframework.http.HttpMethod;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
@@ -55,11 +56,12 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 	protected void configure(HttpSecurity httpSecurity) throws Exception { // 2
 		log.info("configure");
 		httpSecurity.csrf().disable().authorizeRequests()
+		.antMatchers(HttpMethod.OPTIONS, "/**").permitAll()		
 //		.antMatchers("/*").permitAll()
-		.antMatchers("/").permitAll()
+//		.antMatchers("/").permitAll()
 		.antMatchers("/hello").permitAll()
 		.antMatchers("/login").permitAll()
-		.antMatchers("/departments").permitAll()
+//		.antMatchers("/departments").permitAll()
 				.anyRequest().authenticated().and().exceptionHandling().and().sessionManagement()
 				.sessionCreationPolicy(SessionCreationPolicy.STATELESS);
 		httpSecurity.addFilterBefore(userRequestFilter, UsernamePasswordAuthenticationFilter.class);

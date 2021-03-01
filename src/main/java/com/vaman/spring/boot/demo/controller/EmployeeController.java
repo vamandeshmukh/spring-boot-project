@@ -22,6 +22,7 @@ public class EmployeeController {
 	@Autowired
 	EmployeeService service;
 
+	@CrossOrigin(origins = "http://localhost:4200")
 	@GetMapping("/")
 	private String baseUrl() {
 		log.info("baseUrl controller");
