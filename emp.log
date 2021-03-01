@@ -5624,3 +5624,9 @@ Caused by: java.lang.Error: Unresolved compilation problem:
 2021-03-01 21:54:51.399  INFO 6264 --- [http-nio-8090-exec-5] c.v.s.b.demo.security.UserRequestFilter  : UserPassAuth
 2021-03-01 21:54:51.400  INFO 6264 --- [http-nio-8090-exec-5] c.v.s.b.d.controller.EmployeeController  : baseUrl controller
 2021-03-01 21:54:51.412  INFO 6264 --- [http-nio-8090-exec-5] c.v.s.b.demo.security.UserRequestFilter  : chain
+2021-03-01 21:56:28.596  INFO 6264 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-03-01 21:56:30.363  INFO 6264 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-01 21:56:30.366  INFO 6264 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-01 21:56:31.130  WARN 6264 --- [RMI TCP Connection(2)-127.0.0.1] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': java.sql.SQLException: Directory E:/ness/hr cannot be removed.
+2021-03-01 21:56:31.130  INFO 6264 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2021-03-01 21:56:31.134  INFO 6264 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
